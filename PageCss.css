@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-#grad {
+.grad {
   background: linear-gradient(225deg, #a2ea4c 700px, #07aa91 1500px, #07aa91);
 }
 

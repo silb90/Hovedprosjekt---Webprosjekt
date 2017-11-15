@@ -3,6 +3,8 @@
 <html>
     <head>
        <title>Name of the page</title>
+       <link rel="stylesheet" type="text/css" href="PageCss.css">
+
     <head>
     
     <body>

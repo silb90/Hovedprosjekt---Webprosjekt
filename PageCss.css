@@ -4,6 +4,42 @@ body {
 }
 
 .grad {
-  background: linear-gradient(225deg, #a2ea4c 700px, #07aa91 1500px, #07aa91);
+  background: linear-gradient(to bottom right, #FF8C00 500px, #FFA500 1000px, #FFA500);
+	background-size: 5000px;
+	font-family: raleway, serif;
 }
 
+h1 {
+	text-align: center;
+	margin-top: 15%;
+	font-size: 5em;
+}
+
+p {
+	margin: 0 auto 5% auto;
+	width: 65%;
+	font-size: 1.5em;
+}
+
+button {
+	padding: 15px;
+	background-color: #FF8C00;
+	border-color: black;
+	color: black;
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+button:hover {
+	background-color: #FFA500;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.center-button {
+	text-align: center;
+}

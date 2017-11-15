@@ -7,7 +7,26 @@ body {
   background: linear-gradient(to bottom right, #FF8C00 500px, #FFA500 1000px, #FFA500);
 	background-size: 5000px;
 	font-family: raleway, serif;
+   
 }
+
+.test{
+    margin: 0 auto;
+    top: 50%;
+    width: 50%;
+}
+
+
+.test > img {
+    margin: 0 auto;
+   position: absolute;
+    width: 50%;  
+    height: 65%;
+    z-index: -1;
+    
+    
+}
+
 
 h1 {
 	text-align: center;

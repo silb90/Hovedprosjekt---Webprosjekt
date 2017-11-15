@@ -1,0 +1,80 @@
+body{
+	background-color: 	#FF7F50;
+	font:1em/1.5 sans-serif;
+
+}
+h1{
+	text-align:center;
+	font-size:30px;
+	color:black;
+
+}
+form{
+	margin:20px auto;
+	width:320px;
+	color:black;
+
+}
+input{
+	padding:10px;
+	font-size:inherit;
+}
+
+
+
+
+
+
+input[type="text"]{
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid black;
+}
+
+
+input[type="number"]{
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid black;
+}
+
+input[type="password"]{
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	border:2px solid black;
+
+}
+
+
+
+
+
+input[type="radio"]{
+	margin: 0 8px 25px 18px;
+}
+
+
+input[type="radio"].first-child {
+	margin-left: 0;
+}
+
+input[type="login"]{
+width: 344px;
+height:45px;
+border:none;
+background:black;
+color:white;
+}
+
+
+input.focus {
+background: black;
+}
+
+input[type="radio"].checked + label{
+	font-weight: bold;
+	font-size: 18px;
+}

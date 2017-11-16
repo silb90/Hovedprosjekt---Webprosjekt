@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
 	font-family: raleway, serif;
-  background: linear-gradient(120deg, #FF8C00 1500px, #FFA500 1000px, #FFA500);
-  background-size: contain;
+  background: linear-gradient(110deg, #FF8C00 1200px, #FFA500 1000px, #FFA500);
+  background-size: 10000px 10000px;
   background-repeat: no-repeat;
 }
 
@@ -24,6 +24,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  background-color: rgba(255,255,255,0.4);
 }
 
 .welcome-page-lang img{
@@ -32,7 +33,11 @@ body {
   float: left;
   padding: 10px;
   margin: 0;
-  background-color: rgba(255,255,255,0.4);
+
+}
+ 
+.current-lang {
+  opacity: 0.5;
 }
  
 .welcome-page-quote {
@@ -50,6 +55,10 @@ body {
 
 .non-centered {
   text-align: left;
+}
+
+.continue-below {
+  padding-top: 150px;
 }
 
 .grad > h1 {

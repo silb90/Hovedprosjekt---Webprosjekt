@@ -1,10 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#container > h1 {
+  text-align: center;
+}
+
+#front-body {
+  /*background-image: url("Images/background1.jpg");*/
+  background: linear-gradient(to bottom right, #FF8C00 500px, #FFA500 500px, #FFA500);
+}
+
+
+
+
+
 /* App on mobile example */
 
 /* General app layout */
 .mobile-example {
   margin: 25px;
   border: 10px solid black;
-  border-radius: ;
   width: 360px;
   height: 640px;  
   background-color: lightgray;
@@ -12,6 +34,11 @@
   font-family: "Lucida Sans Unicode", serif;
   font-size: 14px;
   position: relative;
+  float: left;
+}
+
+.chat-example {
+
 }
 
 .mobile-top {

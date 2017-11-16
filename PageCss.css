@@ -4,8 +4,9 @@ body {
 }
 
 .grad {
-  background: linear-gradient(to bottom right, #FF8C00 500px, #FFA500 1000px, #FFA500);
-	background-size: 5000px;
+  background-image: url("images/icon/BG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: raleway, serif;
    
 }
@@ -13,31 +14,32 @@ body {
 .test{
     margin: 0 auto;
     top: 50%;
-    width: 50%;
+    width: 70%;
 }
 
 
 .test > img {
     margin: 0 auto;
-   position: absolute;
+    position: absolute;
     width: 50%;  
     height: 65%;
     z-index: -1;
-    
-    
 }
 
+.mainpage-quote {
+    text-align: center;
+    background-size: cover;
+	border: 1px solid black;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 auto 5% auto;
+	width: 65%;
+	font-size: 1.5em;
+}
 
 h1 {
 	text-align: center;
 	margin-top: 15%;
 	font-size: 5em;
-}
-
-p {
-	margin: 0 auto 5% auto;
-	width: 65%;
-	font-size: 1.5em;
 }
 
 button {
@@ -59,6 +61,38 @@ a {
 	color: black;
 }
 
-.center-button {
+.mainpage-icon-container {
+	padding-top: 10%;
+	margin: 0 auto;
+	width: 75%;
 	text-align: center;
+}
+
+.mainpage-icon {
+	float: left;
+	background-color: rgba(255,140,0,0.8);
+	border-radius: 50%;
+	padding: 10px;
+	margin: 0 15px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.mainpage-icon:first-child {
+	margin-left: 15%;
+}
+
+.mainpage-icon img {
+	padding-top: 10%;
+	width: 50px; 
+	display: block;
+	margin: 0 auto;
+}
+
+.mainpage-icon p {
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 16px;
 }

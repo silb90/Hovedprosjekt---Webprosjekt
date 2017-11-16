@@ -39,7 +39,20 @@ body {
 .current-lang {
   opacity: 0.5;
 }
+
+.welcome-page-container {
+  max-height: 1080px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
  
+.welcome-page-container > h1 {
+	text-align: center;
+	margin-top: 15%;
+	font-size: 5em;
+  min-width: 800px;
+}
+
 .welcome-page-quote {
     text-align: center;
     background-size: cover;
@@ -61,17 +74,14 @@ body {
   padding-top: 150px;
 }
 
-.grad > h1 {
-	text-align: center;
-	margin-top: 15%;
-	font-size: 5em;
-}
-
 .welcome-page-icon-container {
 	padding-top: 5%;
 	margin: 0 auto;
 	text-align: center;
   min-width: 800px;
+  max-height: 210px;
+  position: relative;
+  bottom: 10%;
 }
 
 .welcome-page-icon {

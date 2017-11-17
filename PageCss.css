@@ -163,6 +163,16 @@ body {
 	text-align: center;
   text-decoration: none;
   color: black;
+  box-shadow: 0 9px #994d00;
+}
+
+
+.welcome-page-icon:hover {background-color: #ff8000}
+
+.welcome-page-icon:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .welcome-page-icon img {

@@ -204,9 +204,9 @@ body {
 
 .features-wrapper > h1 {
   margin: 0 auto;
-  padding-top: 25%;
+  padding-top: 10%;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
 }
 
@@ -215,7 +215,7 @@ body {
 }
 
 .features-block > h2 {
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 5%;
   text-align: center;
   padding-bottom: 50px;
@@ -223,7 +223,7 @@ body {
 
 .features-block > p {
   padding-top: ;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .mobile-example-container {
@@ -244,7 +244,7 @@ body {
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-	width: 35%;
+	width: 30%;
 	min-width: 290px;
 }
 

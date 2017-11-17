@@ -47,6 +47,15 @@ body {
     border-bottom: 1px solid rgba(100,100,100,0.3);
 }
 
+#sidebar ul > li > a:link {
+    text-decoration: none;
+}
+
+#sidebar ul > li > a > p{
+    color: white;
+    text-decoration: underline black;
+}
+
 #sidebar .toggle_btn{
     position: absolute;
     left: 230px;

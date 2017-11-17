@@ -19,7 +19,7 @@ body {
 
 #sidebar{
     position: fixed;
-    width: 10%;
+    width: 11%;
     height: 100%;
     background: orangered;
     left: -200px;
@@ -27,16 +27,16 @@ body {
 }
 
 #sidebar.active {
-    left: 0px;
+    left: -30px;
 }
 
 #sidebar ul {
     overflow-y: 
-    max-height: 
+    max-height: 100%;
 }
 
 #sidebar ul > li > a > img{
-    width: 80%;
+    width: 78%;
     
 }
 
@@ -58,7 +58,7 @@ body {
 
 #sidebar .toggle_btn{
     position: absolute;
-    left: 230px;
+    left: 225px;
     top: 25px;
 }
 

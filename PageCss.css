@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 	font-family: raleway, serif;
-  background: linear-gradient(110deg, #FF8C00 1600px, #FFA500 1000px, #FFA500);
+  background: linear-gradient(100deg, #FF8C00 5%, #FFA500 10%, #FFA500);
   background-size: 10000px 10000px;
   background-repeat: no-repeat;
 }
@@ -128,7 +128,7 @@ body {
     text-align: center;
     background-size: cover;
 	border-radius: 25px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.6);
 	margin: 0 auto 2% auto;
 	width: 65%;
 	font-size: 1.5em;

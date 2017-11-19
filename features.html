@@ -10,64 +10,62 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-      
-      <div id="sidebar">
-        <div class="toggle_btn" onclick="toggleSidebar()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        
-        <ul>
 
-           <li>
-                <a href="">
-                <img src="Images/Icon/read-more.png">
-                <p>Background</p>
-                </a>
-            </li>
-            
-            <li>
-                 <a href="">
-                <img src="Images/Icon/solution.png">
-                <p>Solution</p>
-                </a>
-            </li>
-            
-            <li>
-                <a href="features.html">
-                <img src="Images/Icon/features.png">
-                <p>Features</p>
-                </a>
-            </li>
-            
-            <li>
-                <a href="">
-                <img src="Images/Icon/problem.png">
-                <p>Archive</p>
-                </a>
-            </li>
-            
-            <li>
-                <a href="">
-                <img src="Images/Icon/about-us.png">
-                <p>About us</p>
-                </a>
-            </li>
-            
-        </ul>
-</div>
+    <nav class="navbar">
+        <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <div class="toggle_btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        </span>
+      </nav>
+        
+      <div class="page-lang"> 
+        <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
+        <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
+        <a href="norFeatures.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
+    </div> 
       
-      
-      
-  <div class="page-lang"> 
-    <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
-    <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
-    <a href="norFeatures.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
-  </div>  
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> &times;</a>
+        
+        <a href="">
+            <img src="Images/Icon/home-icon.png">
+            <p>Home</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/read-more.png">
+            <p>Background</p>
+        </a>
+        
+         <a href="">
+            <img src="Images/Icon/solution.png">
+            <p>Solution</p>
+        </a>
+        
+        <a href="features.html">
+            <img src="Images/Icon/features.png">
+            <p>Features</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/problem.png">
+            <p>Archive</p>
+        </a>
+        
+         <a href="">
+            <img src="Images/Icon/about-us.png">
+            <p>About us</p>
+        </a>
+    </div>
+    
   <div class="background-color-white">
   
-  
+  <div id="wrapper">
     <div class="features-wrapper">
       <h1>App Features</h1>    
       <div class="features-block">
@@ -229,5 +227,6 @@
       </div>
     </div>
   </div>
+      </div>
   </body>
 </html>

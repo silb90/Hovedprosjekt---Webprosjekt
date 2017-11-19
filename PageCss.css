@@ -15,28 +15,85 @@ body {
   clear: both;
 }
 
+/* Start of navbar-toggle-btn */
+
+.navbar{
+    position: fixed;
+    background-color: red;
+    overflow: hidden;
+}
+
+.toggle_btn > span {
+    display: block;
+    width: 42px;
+    height: 5px;
+    margin: 7px 0px;
+    background: black;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17ox;
+}
+
+.navbar ul{
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+/* End of navbar-toggle-btn */
+
+
 /* Start of sidebar */
 
-#sidebar{
+.side-nav{
     position: fixed;
-    width: 11%;
+    z-index: 1;
     height: 100%;
-    background: orangered;
-    left: -200px;
-    transition: all 0.4s linear;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.6s;
 }
 
-#sidebar.active {
-    left: -30px;
+.side-nav a{
+    padding: 10px 10px 50px 10px;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    text-align: center;
+    text-decoration: underline black;
 }
 
-#sidebar ul {
-    overflow-y: 
-    max-height: 100%;
+.side-nav a:hover{
+    color: #fff;
 }
 
-#sidebar ul > li > a > img{
-    width: 65%;
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-nav a > img{
+    width: 40%;
     border-radius: 50%;
     padding: 10px;
     background-color: rgba(255,140,0,0.8);
@@ -44,36 +101,6 @@ body {
 	text-align: center;
     box-shadow: 0 9px #994d00;
     
-}
-
-#sidebar ul > li {
-    color: rgba(230,230,230, 09);
-    list-style: none;
-    padding: 15px 10px;
-    border-bottom: 1px solid rgba(100,100,100,0.3);
-}
-
-#sidebar ul > li > a:link {
-    text-decoration: none;
-}
-
-#sidebar ul > li > a > p{
-    color: white;
-    text-decoration: underline black;
-}
-
-#sidebar .toggle_btn{
-    position: absolute;
-    left: 225px;
-    top: 25px;
-}
-
-#sidebar .toggle_btn > span {
-    display: block;
-    width: 42px;
-    height: 5px;
-    margin: 7px 0px;
-    background: black;
 }
 
 /* End of sidebar */

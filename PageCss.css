@@ -17,7 +17,7 @@ body {
 }
 
 
-<<<<<<< HEAD
+
 #sidebar{
     position: fixed;
     width: 11%;
@@ -26,15 +26,11 @@ body {
     left: -200px;
     transition: all 0.4s linear;
 
-=======
 #wrapper{
     transition:margin-left 0.5s;
     padding: 65px;
     overflow: hidden;
     width: 80%;
->>>>>>> c973237a4137a2990eb3dae1c906dcce77e48f4f
-}
-
 
 /* Start of navbar-toggle-btn */
 
@@ -67,15 +63,6 @@ body {
     
 }
 
-#sidebar ul > li > a:hover {
-	background-color: #ff8000
-}
-
-#sidebar ul > li > a:active {
-  background-color: #e65c00;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-=======
 .navbar a{
     float: left;
     display: block;

@@ -16,17 +16,6 @@ body {
   clear: both;
 }
 
-
-
-#sidebar{
-    position: fixed;
-    width: 9%;
-    height: 100%;
-    background: blue;
-    left: -200px;
-    transition: all 0.4s linear;
-   }
-
 #wrapper{
     transition:margin-left 0.5s;
     padding: 65px;
@@ -47,21 +36,6 @@ body {
     height: 5px;
     margin: 7px 0px;
     background: black;
-}
-
-
-#sidebar ul > li > a > img{
-    width: 65%;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgba(255,140,0,0.8);
-    display: inline-block;
-	text-align: center;
-    
-    box-shadow: 5px 5px 5px #994d00;
-  	border: 4px solid #FA6900;
-  	border-radius: 5px;
-    
 }
 
 .navbar a{
@@ -93,7 +67,7 @@ body {
     position: fixed;
     z-index: 1;
     height: 100%;
-    width: 0;
+    width: 10%;
     top: 0;
     left: 0;
     background-color: orangered;
@@ -138,7 +112,9 @@ body {
     background-color: rgba(255,140,0,0.8);
     display: inline-block;
 	text-align: center;
-    box-shadow: 0 9px #994d00;
+    box-shadow: 5px 5px 5px #994d00;
+  	border: 4px solid #FA6900;
+  	/* border-radius: 5px; */
     
 }
 

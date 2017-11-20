@@ -350,7 +350,82 @@ p {
 }
 
 
-
 /* End features page */
+
+
+/* Start of solution page */
+
+.solution-text {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.8em;
+    margin-bottom: 10%;
+}
+
+
+#LGBT-img {
+    float: right;
+    max-width: 100%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    clear: right;
+    
+}
+
+#LGBT-text {
+    font-size: 28px;
+    line-height: 1.8em;
+    margin-bottom: 5%;
+    clear: left;
+}
+
+#bullying-img {
+    float: left;
+    max-width: 100%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+#bullying-text {
+    text-align: left;
+    font-size: 28px;
+    line-height: 1.8em;
+    margin-bottom: 5%;
+    clear: right; 
+}
+
+#refugee-img {
+    float: right;
+    max-width: 100%;; 
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+#refugee-text {
+    text-align: right;
+    font-size: 28px;
+    line-height: 1.8em;
+    margin-bottom: 5%;
+    clear: right; 
+    
+}
+
+#friendship-text {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.8em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#friendship-img {
+    max-width: 100%;
+    height: auto; 
+    margin-left: 25%;
+    
+}
+
+
+/* End of solution page */
 
 

@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     
+    
 }
 
 .background-color-white {
@@ -38,14 +39,15 @@ body {
 
 h1 {
   margin: 0 auto;
-  padding-top: 10%;
-  font-weight: bold;
-  font-size: 4em;
+  padding-top: 1%;
+  font-weight:bold;
+  font-size: 20px;
   text-align: center;
 }
 
 p {
-	font-size: 1.4em;
+	font-size: 17px;
+   
 }
 
 /* End general page layout */
@@ -180,7 +182,7 @@ p {
 }
  
 .current-lang {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 

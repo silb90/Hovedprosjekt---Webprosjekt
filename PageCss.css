@@ -34,6 +34,10 @@ body {
   text-align: center;
 }
 
+#wrapper > p {
+	font-size: 1.4em;
+}
+
 /* End general page layout */
 
 
@@ -274,7 +278,6 @@ body {
 }
 
 .features-block > p {
-  padding-top: ;
   font-size: 1.4em;
 }
 
@@ -321,4 +324,13 @@ body {
 
 /* Background/Problem/Purpose page */
 
+.quote {
+	width: 80%;
+	margin: 50px auto;
+	padding: 10px;
+	font-style: italic;
+	background-color: white;
+	border-radius: 25px;
+	
+}
 

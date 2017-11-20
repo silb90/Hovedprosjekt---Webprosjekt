@@ -5,5 +5,5 @@ function openSlideMenu(){
         
 function closeSlideMenu(){
             document.getElementById('side-menu').style.width = '0';
-            document.getElementById('wrapper').style.marginLeft = '0;';
+            document.getElementById('wrapper').style.marginLeft = '0';
         }

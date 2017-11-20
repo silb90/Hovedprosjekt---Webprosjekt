@@ -32,7 +32,31 @@ body {
     padding: 65px;
     overflow: hidden;
     width: 80%;
+<<<<<<< HEAD
 }
+
+h1 {
+  margin: 0 auto;
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+}
+
+p {
+	font-size: 1.4em;
+}
+
+/* End general page layout */
+
+
+
+
+
+
+=======
+}
+>>>>>>> c91ed3d952c265680d4e1c755c61c0d4df316450
 /* Start of navbar-toggle-btn */
 
 .navbar{
@@ -331,7 +355,17 @@ body {
   float: right;
   padding: 0 0 10px 10px;
 }
-
+.wrapper{
+	margin-right: 2cm;
+ margin-left: 2cm;
+ margin-top: 3cm;
+ margin-bottom: 1cm;
+ padding: 15px;
+ background-color: white;
+ box-shadow: 2px 1px 8px 5px grey;
+ box-sizing: content-box;
+ width: 90%;
+}
 
 
 /* End features page */

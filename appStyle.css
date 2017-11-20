@@ -339,6 +339,10 @@ body {
   outline: none;
 }
 
+.parted-enlarged {
+	width: 30% !important;
+}
+
 .mobile-complete-registration {
   border: 1px solid black;
   background-color: ghostwhite;

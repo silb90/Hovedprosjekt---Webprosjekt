@@ -1,32 +1,69 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Name of the app or company</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
-
-    <body>
+  <head>
+    <title>Interact: Features</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="PageCss.css">
+    <link href="appStyle.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+        <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <div class="toggle_btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        </span>
+      </nav>
         
-       <div class="topnav" id="mytopnav">
-            <a class="navbar-item" href="whoarewe" >Who are we?</a>
-			<a class="navbar-item" href="ourpurpose">Our purpose</a>
-			<a class="navbar-item" href="ourproduct">Our product</a>
-			<a class="navbar-item" href="howitworks">How it works</a>
-			<a class="navbar-item" href="ourtargetpublic">Our target public</a>
-			<a class="navbar-item" href="contact">Contact</a>
-		</div>        
+      <div class="page-lang"> 
+        <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
+        <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
+        <a href="norFeatures.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
+    </div> 
+      
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> &times;</a>
         
-            <div class="article-row">
-                    <div class="article-segment">
-                        <h2 href="ourpurpose">Our purpose</h2>
-                        <p></p>
-                        <p>Hello... test123</p>
-                    </div>
-                    <div class="article-segment">
-                        <img src= class=>
-                    </div>
-                </div>
-                <br>
-    </body>
+        <a href="">
+            <img src="Images/Icon/home-icon.png">
+            <p>Home</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/read-more.png">
+            <p>Background</p>
+        </a>
+        
+         <a href="">
+            <img src="Images/Icon/solution.png">
+            <p>Solution</p>
+        </a>
+        
+        <a href="features.html">
+            <img src="Images/Icon/features.png">
+            <p>Features</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/problem.png">
+            <p>Archive</p>
+        </a>
+        
+         <a href="">
+            <img src="Images/Icon/about-us.png">
+            <p>About us</p>
+        </a>
+    </div>
+    
+  <div class="background-color-white">
+  
+  </div>
+  </body>
 </html>

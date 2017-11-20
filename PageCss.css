@@ -3,17 +3,13 @@ body {
     padding: 0;
 	font-family: raleway, serif;
     background: 
-                repeating-linear-gradient(135deg, #FFA500, #FFA500 750px,
-                #FF8C00 750px, #FF8C00 1500px);               
+                repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px,
+                #FF8C00 1000px, #FF8C00 2000px);               
     background-size:;
     background-repeat: no-repeat;
     overflow-x: hidden;
     
     
-}
-
-.background-color-white {
-  /*background-color: rgba(255,255,255,0.5);*/
 }
 
 .clear {

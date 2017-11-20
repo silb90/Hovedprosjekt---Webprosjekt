@@ -6,6 +6,7 @@ body {
     background-size: 10000px 10000px;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    
 }
 
 .background-color-white {
@@ -29,16 +30,13 @@ body {
 
 #wrapper{
     transition:margin-left 0.5s;
-    padding: 0px 65px;
+    padding: 65px;
     overflow: hidden;
     width: 80%;
-<<<<<<< HEAD
 
-=======
->>>>>>> 725d677eea24c83e1e7b7f8172ee3dc6de9be2fd
 }
 
-#wrapper h1 {
+h1 {
   margin: 0 auto;
   padding-top: 10%;
   font-weight: bold;
@@ -46,13 +44,11 @@ body {
   text-align: center;
 }
 
-#wrapper p {
+p {
 	font-size: 1.4em;
 }
 
 /* End general page layout */
-
-
 /* Start of navbar-toggle-btn */
 
 .navbar{
@@ -67,6 +63,21 @@ body {
     height: 5px;
     margin: 7px 0px;
     background: black;
+}
+
+
+#sidebar ul > li > a > img{
+    width: 65%;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgba(255,140,0,0.8);
+    display: inline-block;
+	text-align: center;
+    
+    box-shadow: 5px 5px 5px #994d00;
+  	border: 4px solid #FA6900;
+  	border-radius: 5px;
+    
 }
 
 .navbar a{
@@ -137,26 +148,15 @@ body {
 }
 
 .side-nav a > img{
-    width: 25%;
+    width: 40%;
     border-radius: 50%;
     padding: 10px;
     background-color: rgba(255,140,0,0.8);
     display: inline-block;
 	text-align: center;
-    box-shadow: 5px 5px 5px #994d00;
+    box-shadow: 0 9px #994d00;
+    
 }
-
-
-.side-nav a > img:hover{
-    background-color: #ff8000
-}
-
-.side-nav a > img:active {
-  background-color: #e65c00;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 
 /* End of sidebar */
 

@@ -1,32 +1,78 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Name of the app or company</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
-
-    <body>
+  <head>
+    <title>Interact: Features</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="PageCss.css">
+    <link href="appStyle.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+        <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <div class="toggle_btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        </span>
+      </nav>
         
-       <div class="topnav" id="mytopnav">
-            <a class="navbar-item" href="whoarewe" >Who are we?</a>
-			<a class="navbar-item" href="ourpurpose">Our purpose</a>
-			<a class="navbar-item" href="ourproduct">Our product</a>
-			<a class="navbar-item" href="howitworks">How it works</a>
-			<a class="navbar-item" href="ourtargetpublic">Our target public</a>
-			<a class="navbar-item" href="contact">Contact</a>
-		</div>        
+      <div class="page-lang"> 
+        <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
+        <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
+        <a href="NorOurPurpose.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
+    </div> 
+      
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> &times;</a>
         
-            <div class="article-row">
-                    <div class="article-segment">
-                        <h2 href="ourpurpose">Our purpose</h2>
-                        <p></p>
-                        <p>Hello... test123</p>
-                    </div>
-                    <div class="article-segment">
-                        <img src= class=>
-                    </div>
-                </div>
-                <br>
-    </body>
+        <a href="">
+            <img src="Images/Icon/home-icon.png">
+            <p>Home</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/read-more.png">
+            <p>Background</p>
+        </a>
+        
+         <a href="">
+            <img src="Images/Icon/solution.png">
+            <p>Solution</p>
+        </a>
+        
+        <a href="features.html">
+            <img src="Images/Icon/features.png">
+            <p>Features</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/problem.png">
+            <p>Archive</p>
+        </a>
+        
+         <a href="">
+            <img src="Images/Icon/about-us.png">
+            <p>About us</p>
+        </a>
+    </div>
+    
+  <div class="background-color-white">
+		<div id="wrapper">
+			<h1>Background</h1>	
+			<p>Loneliness is a state of mind that affects people worldwide. It can be the result of of mental health issues, like depression or post-traumatic distress, but can also be the cause of these problems. Either way, finding someone who shares your feelings, and who may be a supportive friend, might be hard. In these cases, people can easily fall into deeper depression. </p><br>
+			
+			<p>When people with anxiety or depression open up to someone they often encounter a “I’m afraid of dealing with you” reaction. We have people romanticising mental health for the benefit of entertainment on social media. We live in a society that implements the idea of considering  mental disorders as Taboo. In various cultures depression and anxiety are treated either as shamefulness or craziness that devastates the reputation of their family. And in a society where anxiety isn’t understood, depression isn’t given proper treatment; one would wish to support those who are suffering and whose lives are exasperated by depression and anxiety. Therefore, such application will bring people together and normalize the acceptance and understanding of mental health. </p><br>
+			
+			<p>By interviewing some families of people with psychosocial challenges, depression or other psychological disorders, we got some important feedback on what these people go through. For instance, one of the families we interviewed has two small children who find it challenging to interact with other people. Like other children, they use the typical social medias like Facebook and Snapchat, but do not have much social interaction outside of them. </p><br>
+			
+			<p>In this sense, other people interviewed also commented about the fact that social medias are open to everyone, and there is no one to actually mediate the interactions that happen in there. Social media can be rough enough for people currently without any psychological disorder or challenge, and using these medias can have a high toll on an insecure, vulnerable mind. </p><br>
+		</div>
+  </div>
+  </body>
 </html>

@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+/* General page layout */
 .background-color-white {
   /*background-color: rgba(255,255,255,0.5);*/
 }
@@ -21,7 +22,29 @@ body {
     padding: 65px;
     overflow: hidden;
     width: 80%;
+		max-width: 1280px;
+		margin: 0 auto;
 }
+
+#wrapper > h1 {
+  margin: 0 auto;
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+}
+
+#wrapper > p {
+	font-size: 1.4em;
+}
+
+/* End general page layout */
+
+
+
+
+
+
 /* Start of navbar-toggle-btn */
 
 .navbar{
@@ -211,7 +234,7 @@ body {
 }
 
 .welcome-page-icon {
-	background-color: rgba(255,140,0,0.8);
+	background-color: rgba(255,140,0,1);
 	border-radius: 50%;
 	padding: 10px;
 	margin: 0 20px;
@@ -256,22 +279,6 @@ body {
 
 /* Features page */
 
-.features-wrapper {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1280px;
-  
-
-}
-
-.features-wrapper > h1 {
-  margin: 0 auto;
-  padding-top: 10%;
-  font-weight: bold;
-  font-size: 4em;
-  text-align: center;
-}
-
 .features-block {
 	width: 95%;
 }
@@ -284,7 +291,6 @@ body {
 }
 
 .features-block > p {
-  padding-top: ;
   font-size: 1.4em;
 }
 
@@ -324,4 +330,20 @@ body {
 
 /* End features page */
 
+
+
+
+
+
+/* Background/Problem/Purpose page */
+
+.quote {
+	width: 80%;
+	margin: 50px auto;
+	padding: 10px;
+	font-style: italic;
+	background-color: white;
+	border-radius: 25px;
+	
+}
 

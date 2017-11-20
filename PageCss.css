@@ -81,11 +81,7 @@ body {
     color: #000;
 }
 
-#X{
-    
-    font-size: 55px;
-    color: black;
-}
+
 
 /* End of navbar-toggle-btn */
 
@@ -129,9 +125,9 @@ body {
 
 .side-nav .btn-close{
     position: absolute;
+    font-size: 56px;
     top: 0;
     right: 22px;
-    font-size: 36px;
     margin-left: 50px;
 }
 

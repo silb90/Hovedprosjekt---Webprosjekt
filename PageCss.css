@@ -2,16 +2,14 @@ body {
     margin: 0;
     padding: 0;
 	font-family: raleway, serif;
-    background: linear-gradient(100deg, #FF8C00 5%, #FFA500 10%, #FFA500);
-    background-size: 10000px 10000px;
+    background: 
+                repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px,
+                #FF8C00 1000px, #FF8C00 2000px);               
+    background-size:;
     background-repeat: no-repeat;
     overflow-x: hidden;
     
     
-}
-
-.background-color-white {
-  /*background-color: rgba(255,255,255,0.5);*/
 }
 
 .clear {
@@ -33,21 +31,29 @@ body {
     transition:margin-left 0.5s;
     padding: 65px;
     overflow: hidden;
-    width: 80%;
-
+    width: 90%;
+    margin: 0 auto;
 }
 
-h1 {
+#paper-wrapper {
+  max-width: 1280px;
+  background-color: rgba(255,255,255,0.8);
+  margin: 100px auto;
+  padding: 200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+  border: 1px solid black;
+}
+
+#paper-wrapper > h1 {
   margin: 0 auto;
   padding-top: 1%;
   font-weight:bold;
-  font-size: 20px;
+  font-size: 4em;
   text-align: center;
 }
 
-p {
-	font-size: 17px;
-   
+#paper-wrapper p {
+  font-size: 1.4em;
 }
 
 /* End general page layout */
@@ -182,7 +188,7 @@ p {
 }
  
 .current-lang {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 
@@ -194,7 +200,6 @@ p {
     background-image: url("images/icon/BG.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 
 
@@ -202,7 +207,7 @@ p {
 .welcome-page-container {
     max-height: 1080px;
     max-width: 1920px;
-    
+    margin: 0 auto;
 }
 
 
@@ -288,11 +293,7 @@ p {
 /* Features page */
 
 .features-wrapper {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1280px;
-  
-
+  width: 50%;
 }
 
 .features-wrapper > h1 {
@@ -319,32 +320,13 @@ p {
   font-size: 1.4em;
 }
 
-.mobile-example-container {
-  text-align: center;
-  margin: 0 auto;
-	min-width: 640px;
-}
-
-.mobile-example {
-  display: inline-block !important;
-  float: none !important;
-  text-align: left;
-  width: 32% !important;
-	min-height: 640px;
-	min-width: 185px; 
-}
 
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-	width: 30%;
-	min-width: 290px;
+  width: 300px;
 }
 
-.mobile-restore {
-  width: 300px !important;
-  height: 535px !important; 
-}
 
 .mobile-example-container-right {
   float: right;

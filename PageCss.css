@@ -393,7 +393,6 @@ p {
     font-size: 28px;
     line-height: 1.8em;
     margin-bottom: 5%;
-    clear: right; 
 }
 
 #refugee-img {
@@ -404,7 +403,7 @@ p {
 }
 
 #refugee-text {
-    text-align: right;
+    text-align: left;
     font-size: 28px;
     line-height: 1.8em;
     margin-bottom: 5%;

@@ -173,7 +173,7 @@ body {
 
 /* Welcome page */
 .welcome-page-body {
-  background-image: url("images/icon/BG.jpg");
+    background-image: url("images/icon/BG.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -182,15 +182,16 @@ body {
 
 
 .welcome-page-container {
-  max-height: 1080px;
-  max-width: 1920px;
-  margin: 5% auto 0 auto;
+    max-height: 1080px;
+    max-width: 1920px;
+    margin: 5% auto 0 auto;
 }
- 
+
+
 .welcome-page-container > h1 {
 	text-align: center;
 	font-size: 4em;
-  min-width: 800px;
+    min-width: 800px;
 }
 
 .welcome-page-quote {
@@ -201,24 +202,24 @@ body {
 	margin: 0 auto 2% auto;
 	width: 65%;
 	font-size: 1.5em;
-  max-width: 1280px;
-  min-width: 800px;
-  padding: 10px;
+    max-width: 1280px;
+    min-width: 800px;
+    padding: 10px;
 }
 
 .non-centered {
-  text-align: left;
+    text-align: left;
 }
 
 .continue-below {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 .welcome-page-icon-container {
 	margin: 0 auto;
 	text-align: center;
-  min-width: 800px;
-  max-height: 210px;
+    min-width: 800px;
+    max-height: 210px;
 }
 
 .welcome-page-icon {
@@ -228,15 +229,15 @@ body {
 	margin: 0 20px;
 	height: 10%;
 	width: 10%;
-  max-height: 125px;
-  max-width: 125px;
+    max-height: 125px;
+    max-width: 125px;
 	display: inline-block;
 	text-align: center;
-  text-decoration: none;
-  color: black;
-  box-shadow: 5px 5px 5px #994d00;
-  border: 4px solid #FA6900;
-  border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 5px #994d00;
+    border: 4px solid #FA6900;
+    border-radius: 5px;
 }
 
 

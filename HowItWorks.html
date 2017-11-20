@@ -2,35 +2,86 @@
 
 <html>
     <head>
-        <title>Name of the app or company</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Interact: Solution</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="PageCss.css">
+        <link href="appStyle.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
     </head>
 
     <body>
         
-       <div class="topnav" id="mytopnav">
-            <a class="navbar-item" href="whoarewe" >Who are we?</a>
-			      <a class="navbar-item" href="ourpurpose">Our purpose</a>
-			      <a class="navbar-item" href="ourproduct">Our product</a>
-			      <a class="navbar-item" href="howitworks">How it works</a>
-			      <a class="navbar-item" href="ourtargetpublic">Our target public</a>
-			      <a class="navbar-item" href="contact">Contact</a>
-		</div>
+    <nav class="navbar">
+        <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+            <div class="toggle_btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        </span>
+      </nav>
         
-  <section class="content">
-			<article class="article container">
-            
-        <div class="article-row">
-                    <div class="article-segment">
-                        <h2 href="howitworks">How it works</h2>
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div class="article-segment">
-                        <img src= class=>
-                    </div>
-        </div>
+    <div class="page-lang">
+      <img class="current-lang" alt="English language" src="images/icon/american-flag.png">
+      <a href="NorWelcomePage.html"><img alt="Norwegian language" src="images/icon/nor-flag.png"></a>
+    </div>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()"> &times;</a>
+        
+        <a href="MainPage.html">
+            <img src="Images/Icon/home-icon.png">
+            <p>Home</p>
+        </a>
+        
+        <a href="OurPurpose.html">
+            <img src="Images/Icon/read-more.png">
+            <p>Background</p>
+        </a>
+        
+         <a href="HowItWorks.html">
+            <img src="Images/Icon/solution.png">
+            <p>Solution</p>
+        </a>
+        
+        <a href="features.html">
+            <img src="Images/Icon/features.png">
+            <p>Features</p>
+        </a>
+        
+        <a href="">
+            <img src="Images/Icon/problem.png">
+            <p>Archive</p>
+        </a>
+        
+         <a href="WhoAreWe.html">
+            <img src="Images/Icon/about-us.png">
+            <p>About us</p>
+        </a>
+    </div>
+        
+  <div id="wrapper">
+      <h1> Solution </h1>
+      
+      <h2> What do we offer</h2>
+          
+        <p class="non-centered"> Interact is a solution in the form of an app, which works like a form for social media, but for people who struggle with loneliness and/or depression. You can meet other people going through the same situation as you. You can choose to access forums and search for topics related to your issues or even create a topic of discussion of your own. If you are looking for a more personal approach, you can anonymously contact other people which have the same interests as you.</p>
         <br>
+        <p class="non-centered"> With our app, LGBT members can expand their social network and at the same time get support from others with the same sexual orientation and who go through the same situations they do, something that may help improving their mental wellbeing.</p>
+        <br>
+        <p class="non-centered">Our app would serve as a form of support for students who suffer with bullying. They could access a discussion forum about these topics, mediated by a competent person to avoid misuse and avoid heated discussions. They could also contact other people the same age and who are experiencing the same of problems.</p>
+        <br>
+        <p class="non-centered">Refugees can also find a comforting environment when using our app, by finding other people who come from the same places as them or even meeting people from the host country who sympathize with their situation and are eager to help them.</p>
+        <br>
+        <p class="non-centered">Taking into consideration all the above, our intention is to improve the mental health of our users, by having an inclusive environment for all groups of people who for some reason feel lonely or depressed. Studies show that social interaction helps keeping people mentally healthy. </p>
+        <br>
+      </div>
+    
+    
  </body>
     
 </html>

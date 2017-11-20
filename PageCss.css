@@ -32,6 +32,10 @@ body {
     padding: 0px 65px;
     overflow: hidden;
     width: 80%;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 725d677eea24c83e1e7b7f8172ee3dc6de9be2fd
 }
 
 #wrapper h1 {
@@ -196,7 +200,7 @@ body {
 .welcome-page-container {
     max-height: 1080px;
     max-width: 1920px;
-    margin: 5% auto 0 auto;
+    
 }
 
 
@@ -204,6 +208,7 @@ body {
 	text-align: center;
 	font-size: 4em;
     min-width: 800px;
+    margin-top:0;
 }
 
 .welcome-page-quote {

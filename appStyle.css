@@ -280,7 +280,7 @@ body {
 }
 
 .mobile-register > h1{
-  margin: 15% auto;
+  margin: 15% auto 8% auto;
   text-align: center;
 }
 
@@ -370,8 +370,14 @@ body {
   border: 1px solid black;
   background-color: ghostwhite;
   padding: 10px;
-  margin: 60px auto !important;
+  margin: 30px auto !important;
   width: 50%;
+}
+
+.expand-profile {
+  width: 336px;
+  margin: 10px;
+  height: 100px;
 }
 
 /* End app registration area */
@@ -409,4 +415,16 @@ body {
 .mobile-settings-select p {
   width: ;
   float: right;
+}
+
+/* App search area */
+
+.mobile-search {
+  padding: ;
+  
+}
+
+.mobile-search > h1{
+  margin: 15% auto 8% auto;
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 function openSlideMenu(){
-            document.getElementById('side-menu').style.width = '180px';
-            document.getElementById('wrapper').style.marginLeft = '250px';
+            document.getElementById('side-menu').style.width = '12%';
+            document.getElementById('wrapper').style.marginLeft = '10%';
         }
         
 function closeSlideMenu(){

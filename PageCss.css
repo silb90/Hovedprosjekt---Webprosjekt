@@ -50,6 +50,7 @@ body {
 
 #paper-wrapper p {
   font-size: 1.4em;
+  line-height: 1.5em;
 }
 
 /* End general page layout */
@@ -289,18 +290,20 @@ body {
 
 /* Features page */
 
-.features-wrapper {
-  width: 50%;
+.features-block {
+  padding-top: 100px;
 }
 
 .features-block p {
+  line-height: 1.5em;
 	padding: 20px 0;
+  font-size: 1.8em !important;
 }
 
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-  width: 250px;
+  width: 300px;
 }
 
 

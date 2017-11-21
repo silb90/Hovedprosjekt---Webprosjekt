@@ -378,6 +378,9 @@ body {
 }
 
 #friendship-img {
+    border: 2px solid;
+    line-height: 1.4em;
+    padding: 3px;
     max-width: 100%;
     height: auto; 
     margin-left: 25%;

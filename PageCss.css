@@ -303,28 +303,30 @@ body {
   width: 50%;
 }
 
-.features-wrapper > h1 {
-  margin: 0 auto;
-  padding-top: 10%;
-  font-weight: bold;
-  font-size: 4em;
-  text-align: center;
-}
-
-.features-block {
-	width: ;
+.features-block p {
+	padding: 20px 0;
 }
 
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-  width: 300px;
+  width: 250px;
 }
 
 
 .mobile-example-container-right {
   float: right;
   padding: 0 0 10px 10px;
+  width: 250px;
+}
+
+.mobile-example-container-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mobile-example-container-center img {
+  width: 350px;  
 }
 
 

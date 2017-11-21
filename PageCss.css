@@ -345,6 +345,9 @@ body {
 
 
 #LGBT-img {
+    border: 2px solid;
+    line-height: 1.4em;
+    padding: 3px;
     float: right;
     max-width: 100%;
     margin-left: 3%;
@@ -361,6 +364,9 @@ body {
 }
 
 #bullying-img {
+    border: 2px solid;
+    line-height: 1.4em;
+    padding: 3px;
     float: left;
     max-width: 100%;
     margin-right: 3%;
@@ -375,6 +381,9 @@ body {
 }
 
 #refugee-img {
+    border: 2px solid;
+    line-height: 1.4em;
+    padding: 3px;
     float: right;
     max-width: 100%; 
     margin-left: 3%;

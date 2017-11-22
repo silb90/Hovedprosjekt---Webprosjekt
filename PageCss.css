@@ -56,6 +56,26 @@ body {
   line-height: 1.5em;
 }
 
+.image-right-frame-source {
+  float: right;
+    width: 50%;
+    text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 10px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.image-right-frame-source img {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+    border: 2px solid;
+}
+
+
 .image-center-frame-source {
   width: 50%;
   margin: 50px auto;
@@ -65,6 +85,28 @@ body {
 }
 
 .image-center-frame-source img {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid;
+}
+
+.image-left-frame-source {
+  float: left;
+    width: 50%;
+    text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 10px;
+     margin-bottom: 2%;
+    margin-right: 2%;
+    border: 2px solid;
+}
+
+.image-left-frame-source img {
   width: 100%;
   text-align: center;
   display: block;
@@ -379,34 +421,11 @@ body {
     margin-bottom: 10%;
 }
 
-
-#LGBT-img {
-    border: 2px solid;
-    line-height: 1.4em;
-    padding: 3px;
-    float: right;
-    max-width: 100%;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    clear: right;
-    
-}
-
 #LGBT-text {
     font-size: 28px;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;
-}
-
-#bullying-img {
-    border: 2px solid;
-    line-height: 1.4em;
-    padding: 3px;
-    float: left;
-    max-width: 100%;
-    margin-right: 3%;
-    margin-bottom: 2%;
 }
 
 #bullying-text {
@@ -416,23 +435,12 @@ body {
     margin-bottom: 5%;
 }
 
-#refugee-img {
-    border: 2px solid;
-    line-height: 1.4em;
-    padding: 3px;
-    float: right;
-    max-width: 100%; 
-    margin-left: 3%;
-    margin-bottom: 2%;
-}
-
 #refugee-text {
     text-align: left;
     font-size: 28px;
     line-height: 1.8em;
     margin-bottom: 5%;
-    clear: left; 
-    
+    clear: left;   
 }
 
 #friendship-text {
@@ -441,16 +449,6 @@ body {
     line-height: 1.8em;
     margin-top: 10%;
     margin-bottom: 5%;
-}
-
-#friendship-img {
-    border: 2px solid;
-    line-height: 1.4em;
-    padding: 3px;
-    max-width: 100%;
-    height: auto; 
-    margin-left: 25%;
-    
 }
 
 

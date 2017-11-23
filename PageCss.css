@@ -22,10 +22,16 @@ body {
 
 #wrapper{
     margin: 0 auto;
+<<<<<<< HEAD
     width: 90%;
+=======
+    
+>>>>>>> b7ff4bc0ef1982f7e2e0b8125247834f0d605b18
     transition: margin-left 0.5s;
     overflow: hidden;
     margin: 0 auto;
+    width: 900px;
+	max-width: 90%;
 }
 
 #paper-wrapper {
@@ -33,7 +39,9 @@ body {
   background-color: rgba(255,255,255,0.8);
   margin: 10% auto;
   padding: 10%;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   border: 1px solid black;
 }
 

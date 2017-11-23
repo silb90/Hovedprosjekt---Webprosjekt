@@ -8,6 +8,5 @@ function closeSlideMenu(){
             document.getElementById('/wrapper').style.marginLeft = '0';
         }
 
-
-var x = document.getElementsByClassName(
-            'side-nav').style.visibility = "hidden";
+var element = document.getElementById('navbar-top');
+element.style.display = 'none';

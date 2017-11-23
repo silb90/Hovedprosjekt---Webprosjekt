@@ -411,7 +411,7 @@ background-attachment: fixed;
 /* Features page */
 
 .features-block {
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .features-block p {
@@ -433,7 +433,6 @@ background-attachment: fixed;
 	min-width: 200px;
 	max-width: 350px;
 }
-
 
 .mobile-example-container-right {
   float: right;

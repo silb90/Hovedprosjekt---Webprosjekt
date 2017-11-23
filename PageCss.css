@@ -22,7 +22,7 @@ body {
 
 #wrapper{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     transition: margin-left 0.5s;
     overflow: hidden;
     margin: 0 auto;
@@ -404,7 +404,9 @@ background-attachment: fixed;
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-  width: 300px;
+  width: 50%;
+	min-width: 200px;
+	max-width: 350px;
 }
 
 
@@ -417,11 +419,13 @@ background-attachment: fixed;
 .mobile-example-container-center {
   text-align: center;
   margin: 0 auto;
+	width: 100%;
 }
 
 .mobile-example-container-center img {
-  margin-top: 100px;
-  width: 350px;  
+  width: 32%;
+	min-width: 200px;
+	max-width: 350px;
 }
 
 

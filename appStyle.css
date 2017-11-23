@@ -495,3 +495,22 @@ body {
 .search-personal select {
 	width: 29% !important;
 }
+
+/* End search area */
+
+
+
+
+
+/* Communities area */
+
+.communities-first-page p {
+	background-color: ghostwhite;
+	border: 2px solid black;
+	border-radius: 50px;
+	width: 80%;
+	font-size: 1.4em;
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px;
+}

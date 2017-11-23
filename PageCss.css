@@ -21,6 +21,7 @@ body {
 }
 
 #wrapper{
+    margin: 0 auto;
     width: 80%;
     padding-left: 115px;
     transition: margin-left 0.5s;

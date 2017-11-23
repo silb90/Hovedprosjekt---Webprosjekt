@@ -8,5 +8,6 @@ function closeSlideMenu(){
             document.getElementById('/wrapper').style.marginLeft = '0';
         }
 
+
 var element = document.getElementById('navbar-top');
 element.style.display = 'none';

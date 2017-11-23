@@ -22,10 +22,12 @@ body {
 
 #wrapper{
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     transition: margin-left 0.5s;
     overflow: hidden;
     margin: 0 auto;
+    width: 900px;
+	max-width: 90%;
 }
 
 #paper-wrapper {
@@ -33,7 +35,13 @@ body {
   background-color: rgba(255,255,255,0.8);
   margin: 10% auto;
   padding: 10%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+	-o-box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
   border: 1px solid black;
 }
 
@@ -404,7 +412,9 @@ background-attachment: fixed;
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-  width: 300px;
+  width: 50%;
+	min-width: 200px;
+	max-width: 350px;
 }
 
 
@@ -417,11 +427,13 @@ background-attachment: fixed;
 .mobile-example-container-center {
   text-align: center;
   margin: 0 auto;
+	width: 100%;
 }
 
 .mobile-example-container-center img {
-  margin-top: 100px;
-  width: 350px;  
+  width: 32%;
+	min-width: 200px;
+	max-width: 350px;
 }
 
 

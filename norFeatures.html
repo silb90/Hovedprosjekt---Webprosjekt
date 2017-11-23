@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="PageCss.css">
-    <link href="appStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <nav class="navbar">
+        
         <span class="open-slide">
         <a onclick="openSlideMenu()">
             <div class="toggle_btn" onclick="toggleSidebar()">
@@ -19,15 +21,15 @@
             </div>
         </a>
         </span>
-      </nav>
+    </nav>
       
       <div class="navbar-top">
-        <a  href="OurPurpose.html"> Bakgrunn</a>
+        <a  href="OurPurpose.html"> Bakgrunn </a>
         
          <a href="HowItWorks.html"> Løsning
         </a>
         
-        <a href="features.html"> Egensakper
+        <a href="features.html"> Egenskaper
         </a>
         
          <a href="Abouttus.html"> Om oss
@@ -35,199 +37,115 @@
       </div>
         
       <div class="page-lang"> 
-        <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
-        <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
-        <a href="NorOurPurpose.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
+        
+        <a href="features.html"><img alt="English Language" src="images/icon/american-flag.png"></a>
+        <img class="current-lang" alt="Norwegian Language" src="images/icon/nor-flag.png">
     </div> 
       
     <div id="side-menu" class="side-nav">
         <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
         
-        <a href="NorWelcomePage.html">
-            <img src="Images/Icon/home-icon.png">
-            <p>Home</p>
+        <a href="WelcomePage.html">
+            <img src="Images/Icon/logo.png">
+            <p>Hjem</p>
         </a>
         
-        <a href="NorOurPurpose.html">
+        <a href="OurPurpose.html">
             <img src="Images/Icon/read-more.png">
-            <p>Background</p>
+            <p>Bakgrunn</p>
         </a>
         
-         <a href="NorHowItWorks.html">
+         <a href="HowItWorks.html">
             <img src="Images/Icon/solution.png">
-            <p>Solution</p>
+            <p>Løsning</p>
         </a>
         
-        <a href="norFeatures.html">
+        <a href="features.html">
             <img src="Images/Icon/features.png">
-            <p>Features</p>
+            <p>Egenskaper</p>
         </a>
         
-         <a href="omoss.html">
+         <a href="Abouttus.html">
             <img src="Images/Icon/about-us.png">
-            <p>About us</p>
+            <p>Om oss</p>
         </a>
     </div>
-      
-      
-  <div class="wrapper">
-      
-    <div class="features-wrapper">
-      <h1>App Features (Norsk)</h1>    
+
+  <div id="wrapper">
+    <div id="paper-wrapper">
+      <h1>App Features</h1>
+      <h2>Creating a profile (Norsk versjon)</h2>      
       <div class="features-block">
-        <h2>Creating a profile</h2>
+      
+				<img src="images/app-images/reg-ex1.jpg" class="mobile-example-container-left">
+        <p>Creating a new profile is intended to be simple, but will require some time to consider what options and information you wish to add and possibly share.</p>
+        <p>Our app requires the user to provide a phone number. This is to help ensure your identity, help verify you on new devices, and generally add an extra layer of security to your account. Once your registration is complete, you will receive a confirmation SMS to verify it is the correct number.</p> 
+        <p>Once the basic login information has been entered, you may continue to each criteria and select an option that suits you from the dropdown menu. The dropdown options may feel limited, but these are used as keywords later when searching for a person to match your criteria. You may provide a more personal and accurate answer, which will only be visible on your profile.</p>
         
-        
-                <div class="mobile-example-container-left">
-          <div class="mobile-example">
-            <div class="mobile-register">
-              <h1>Registration</h1>
-              <span class="mobile-register-input-login"></span>
-              <h4>E-mail:</h4><span class="mobile-register-input-login"></span>
-              <h4>Phone number:</h4><span class="mobile-register-input-login"></span>
-              <h4>Password:</h4>
-              <p>Once done, you will receive a confirmation SMS</p>
-              <hr class="mobile-lines">
-              
-              <h2>Profile</h2>
-              <p class="mobile-profile-disclaimer">Your profile is hidden until you choose to show it.</p>
-              <p class="mobile-profile-disclaimer">Dropdown items are used for the searches.</p>
-              <p class="mobile-profile-disclaimer">You may specify each description. Tick which description you wish to display on your profile.</p>
-              
-              <input class="w3-check" type="checkbox" checked="checked">
-              <span class="mobile-register-input-parted"></span>          
-                <select class="mobile-select-parted">
-                  <option>N/A</option>
-                  <option selected>Female</option>
-                  <option>Male</option>
-                  <option>Transgender</option>
-                </select>          
-              <h4>Gender:</h4>
-              
-              <input class="w3-check" type="checkbox" checked="checked">
-              <span class="mobile-register-input-parted">23</span> 
-                <select class="mobile-select-parted">
-                  <option>N/A</option>
-                  <option>13-15</option>
-                  <option>16-19</option>
-                  <option selected>19-24</option>
-                  <option>25-29</option>
-                  <option>30-34</option>
-                  <option>35-39</option>
-                  <option>40-44</option>
-                  <option>45-49</option>
-                  <option>50-54</option>
-                  <option>55-59</option>
-                  <option>60-64</option>
-                  <option>65-69</option>
-                  <option>70-74</option>
-                  <option>75+</option>
-                </select>
-               <h4>Age:</h4>
-               
-              <input class="w3-check" type="checkbox">
-                <select class="mobile-select-parted">
-                  <option>City</option>
-                  <option>Bergen</option>
-                  <option>Drammen</option>
-                  <option selected>Oslo</option>
-                  <option>Stavanger</option>
-                  <option>Trondheim</option>
-                </select>
-                <select class="mobile-select-parted select-country">
-                  <option>Country</option>
-                  <option>Germany</option>
-                  <option>Great Britain</option>
-                  <option selected>Norway</option>
-                </select>    
-              <h4>Location:</h4>
-              
-              <input class="w3-check" type="checkbox" disabled>
-              <span class="mobile-register-input-parted"></span> 
-                <select class="mobile-select-parted">
-                  <option>N/A</option>
-                  <option>Complicated</option>
-                  <option>Dating</option>
-                  <option>Divorced</option>
-                  <option>Relationship</option>
-                  <option>Single</option>
-                  <option>Widow/-er</option>
-                </select>
-              <h4>Civil status:</h4>
-        
-              <input class="w3-check" type="checkbox" disabled>
-              <span class="mobile-register-input-parted"></span>
-                <select class="mobile-select-parted">
-                  <option>N/A</option>
-                  <option>Applying</option>
-                  <option>Disabled</option>
-                  <option>Freelance</option>            
-                  <option>Retired</option>
-                  <option>Student</option>
-                  <option>Worker</option>
-                </select>   
-              <h4>Work/Studies:</h4>
-              
-              
-              <input class="w3-check" type="checkbox" checked="checked">
-              <span class="mobile-register-input-parted">Spiritual</span>        
-                <select class="mobile-select-parted">
-                  <option>N/A</option>
-                  <option>Budhist</option>            
-                  <option>Christian</option>
-                  <option>Hindu</option>
-                  <option>Jew</option>
-                  <option>Muslim</option>
-                  <option>Other</option>
-                </select>           
-              <h4>Religion:</h4><input class="w3-check" type="checkbox">
-            
-              <h4>Fobias/Fears:</h4>
-              <hr class="mobile-lines">
-              
-              <h3>Other things</h3>     
-            </div>  
-          </div>
+        <p>Criteria available to you are the expected general descriptions and hobbies/interests, but our app also offers the ability to find people based on less common criteria, such as social experiences, physical challenges, sexual orientation, phobias, and psychological challenges.</p>
+        <div class="clear"></div>
+        <p>Finally, you select for each feature whether you want it to be visible on your profile. However, when searching based on specific crtieria, you and your match will both see what the other has selected from each specific option. Your profile is hidden until both parties in a conversation choose to reveal it.</p> 
+        <div class="mobile-example-container-center">
+            <img src="images/app-images/reg-ex2.jpg">
+            <img src="images/app-images/reg-ex3.jpg">
         </div>
-        
-        
-        <p>Creating a profile is quite straight forward. However, our app requires the user to provide a phone number. Once the registration is complete, a verification SMS is sent to the recipient, and the received code must be entered.</p><br>
-        <p>Further, you provide a number of various describing features of you. The dropdown options may feel limited, but these are used as keywords later when searching for a person who matches your criteria. You may provide a more personal and accurate answer, of which is only visible on your profile. Lastly, you select for each feature whether you want it to be visible on your profile. However, when searching based on specific crtieria, you and your match will both know what you've put on the specific options. Your profile is hidden until both parties in a conversation choose to reveal it.</p><br>
-        <p>Each option is inteded to grant a good number of options. Our goal is to represent a large number of people. Particularly important, we wish to allow our users to search for people to chat with based on less common criteria, many of which can be difficult due to tabu and social acceptance. We want to allow our users to find someone to share their thoughts and feelings with, either casually or given a specific challenge they have in life.</p>
-        
-
-            
-        
-          <div class="mobile-example">
-            <div class="mobile-register">
-              <input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>
-              <h4>Work/Studies:</h4><input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>
-              <h4>Religion:</h4><input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>      
-              <h4>Fobias/Fears:</h4>
-              <hr class="mobile-lines">
-              
-              <h3>Other things</h3>
-              <input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>
-              <h4>Age:</h4><input class="w3-check" type="checkbox" checked="checked"><span class="mobile-register-input"></span>
-              <h4>Location:</h4>  
-
-              <h1 class="mobile-complete-registration">Done</h1>
-            </div>
-          </div>
-        
+         <p>Each criteria is intended to grant a good number of options. Our goal is to represent a large number of people. Particularly important, we wish to allow our users to search for people to chat with based on less common criteria than other social medias may offer. This includes topics considered as taboo and less socially accepted. We want to allow our users to find someone to share their thoughts and feelings with, either casually or given a specific challenge they have in life, and perhaps feel acknowledged, accepted, loved, and valued.</p> 
       </div>
-
-    </div> 
-
+       
       <div class="clear"></div>
-    
+			
+			<div class="features-block">
+				<h2>Searching</h2>
+        <p>Once registration is complete, you may start searching for a conversation partner. The options available to you are dependent on what you've set on your profile, during or after registration through the profile link. Select the options available in each dropdown menu, whereas the selected alternative will specifically be used to find a conversation partner with similar criteria.</p>
+
+        <p>Once finished and you've clicked search, the app will find a number of options for conversation partners you may connect to. Further, the list will let you know what each person has put in the respective categories of criteria, and you may select the user(s) you find fit the best. Every user in this list is anonymous. 
+				<div class="mobile-example-container-center">
+          <img src="images/app-images/search-ex1.jpg">
+          <img src="images/app-images/search-ex2.jpg">  
+        </div>
+			</div>
+			
       <div class="features-block">
 
         <h2>Chatting</h2>
-        <p>The app basically functions like any other message application, however, as you see in the images below, we also provide the option to search for people based on criteria such as social anxiety.</p>
-        <img src="images/app-images/chat1alt.png">
-      </div>
-    </div>
+        <p>The chat function of our app works largely like any other message application. However, based on your search, you will find a user that has selected similar options as you in their profile. Listed first is all the criteria you searched for and what they've put in each respective option. Your conversation partner will receive a similar list of critera depicting you.</p>
+        <p>Your profile will remain anonymous until you decide to reveal it to the person you are chatting with. At that point, your partner will have the option to accept. If the user does, both will have access to each others profiles.</p>
+        <p>All your conversations are saved on your device, until you select to delete them, and can be accessed through the app's menu. You may also select to add your conversation partner to a "friend's list", so that you may easily engage them in conversation again, should you please.</p>
+        <p>Every now and then, warning messages will appear, saying such as <em>"Never reveal identifiable or personal information to strangers"</em> and <em>"If meeting someone, do it in public and/or with a friend"</em>. While these are displaying for a reason, you may naturally change how often they appear, or outright turn them off, in the settings.</p>
   
+        <div class="mobile-example-container-center">
+          <img src="images/app-images/chat-ex1.jpg">
+          <img src="images/app-images/chat-ex2.jpg">  
+          <img src="images/app-images/chat-ex3.jpg">
+        </div>
+      </div>
+      
+      <div class="clear"></div>
+    
+			<div class="features-block">
+				<h2>Communities</h2>
+				
+				<img class="mobile-example-container-right" src="images/app-images/com-ex1.jpg"><p>Our app gives the user the ability to both join and create “communities” dedicated to specific topics. Here, people can create and participate in discussion forums, and find people who are in the same situation. A selection of official communities is available. The official communities are governed more closely, and will serve as a main hub for certain topics, such as social anxiety.</p>     
+        
+        <p>Furthermore, every user may create a new community, of which they can govern themselves, given they follow the guidelines of common decency, respect, and so forth. All communities you are part of, is neatly listed. Every member of the communities are still anonymous. However, users may select a username solely for this part of the app, to allow for a more connected group of people.</p>
+
+        <p>Every member of a community may evaluate each member’s posts, generally by giving a simple “thumbs up”, if you valued the post. This rating is always hidden. Once a member has reached a certain number of positive ratings, and otherwise show good code of conduct, they may be offered the opportunity to moderate the community. This helps to ensure good quality across the content.</p>
+
+        <p>All activity in the community is public, and is expected to follow general guidelines. As such, damaging and unwanted behavior can be reported, if no moderator has already noticed it, and will be evaluated. Continuous examples of breaking general rules of conduct, will give a number of warnings, and may end in being banned from the community, and ultimately may ban the users from using the app altogether.</p> 
+        
+        <div class="mobile-example-container-center">
+          <img src="images/app-images/com-ex1.jpg">
+          <img src="images/app-images/com-ex1.jpg">  
+          <img src="images/app-images/com-ex1.jpg">
+        </div>
+        
+        <p>Our foremost vision, with the ability to join communities, is to give people an arena to voice their issues, their experiences, and their life lessons. By sharing experiences, in plural, we hope people will learn something new about themselves and the world, and perhaps see their situation in a new light.</p>
+        <p id="quote-center">Well placed, wise words may come a long way, for any of us. </p>
+
+
+			</div>
+		
+			</div>
+    </div>
   </body>
 </html>

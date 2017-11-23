@@ -430,14 +430,16 @@ background-attachment: fixed;
   float: left;
   padding: 0 10px 10px 0;
   width: 50%;
-	min-width: 200px;
+	min-width: 220px;
 	max-width: 350px;
 }
 
 .mobile-example-container-right {
   float: right;
   padding: 0 0 10px 10px;
-  width: 250px;
+  width: 50%;
+	min-width: 220px;
+	max-width: 350px;
 }
 
 .mobile-example-container-center {
@@ -448,7 +450,7 @@ background-attachment: fixed;
 
 .mobile-example-container-center img {
   width: 32%;
-	min-width: 200px;
+	min-width: 220px;
 	max-width: 350px;
 }
 

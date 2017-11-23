@@ -179,7 +179,6 @@ body {
 
 .navbar a:hover{
     background-color: #ff8000;
-   
 }
 
 .navbar a:active {
@@ -194,6 +193,26 @@ body {
 }
 /* End of navbar-toggle-btn */
 
+.navbar-top {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    padding: 3%;
+    background-color: orangered;
+    opacity: 0.9;
+}
+
+.navbar-top > a {
+    text-decoration: none;
+    padding: 3%;
+    color: black;
+    font-size: 28px;
+}
+
+.navbar-top > a:hover{
+    background-color: #ff8000;
+}
 
 /* Start of sidebar */
 

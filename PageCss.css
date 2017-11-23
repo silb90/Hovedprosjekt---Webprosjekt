@@ -22,11 +22,7 @@ body {
 
 #wrapper{
     margin: 0 auto;
-<<<<<<< HEAD
     width: 90%;
-=======
-    
->>>>>>> b7ff4bc0ef1982f7e2e0b8125247834f0d605b18
     transition: margin-left 0.5s;
     overflow: hidden;
     margin: 0 auto;

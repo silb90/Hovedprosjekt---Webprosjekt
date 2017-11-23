@@ -457,6 +457,9 @@ background-attachment: fixed;
   margin-left: 1%;
 }
 
+#quote-center {
+  text-align: center;
+}
 
 /* End features page */
 

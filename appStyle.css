@@ -528,3 +528,48 @@ body {
 	text-align: center;
 	padding: 20px;
 }
+
+.communities-forum-page {
+  
+}
+
+.forum-headers {
+  text-align: center;
+  background-color: ghostwhite;
+  margin: 0;
+  height: 50px;
+  padding: 10px;
+}
+.forum-headers h4 {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 50px;
+}
+.forum-headers p {
+  
+  
+}
+
+.post-number {
+  width: 30%;
+  float: right;
+  text-align: left;
+}
+
+.communities-forum-page h3 {
+  background-color: hotpink;
+  font-size: 1.4em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+.communities-forum-page h3:first-child {
+  margin-top: 0;
+  border-top: none;
+}
+
+.motb {
+  text-align: center;
+  line-height: 50px;
+}

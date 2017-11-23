@@ -451,8 +451,8 @@ body {
 
 .mobile-search-boxes:nth-child(5) {
   width: 50%;
-  float: left;
-  padding-left: 2px;
+  float: ;
+  padding-left: ;
 }
 
 .mobile-search-boxes h4{
@@ -467,5 +467,31 @@ body {
   background-color: ghostwhite;
 	border: 1px solid black;
   outline: none;
+	width: 50%;
   float: right;
+}
+
+.search-occupation {
+	width: 52% !important;
+}
+
+.search-occupation select {
+	margin-left: 10px;
+	width: 80px !important;
+}
+
+.search-hobby {
+	width: 100% !important;
+}
+
+.search-hobby select {
+	width: 29%;
+}
+
+.search-hobby select:nth-child(odd) {
+	margin-right: 10px;
+}
+
+.search-personal select {
+	width: 29% !important;
 }

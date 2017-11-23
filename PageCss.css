@@ -296,7 +296,7 @@ body {
 
 .welcome-page-container > h1 {
 	text-align: center;
-	font-size: 4em;
+	
     min-width: 800px;
     margin-top:0;
 }
@@ -305,10 +305,10 @@ body {
     text-align: center;
     background-size: cover;
 	border-radius: 25px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.9);
 	margin: 0 auto 2% auto;
 	width: 65%;
-	font-size: 1.1em;
+	
     max-width: 1280px;
     min-width: 800px;
     padding: 10px;

@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Interact: Solution</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="PageCss.css">
-        <link href="appStyle.css" type="text/css" rel="stylesheet">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
+<head>
+    <title>Interact: Solution</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="PageCss.css">
+    <link href="appStyle.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
 
-    <body>
-        
+<body>    
     <nav class="navbar">
         <span class="open-slide">
-        <a href="#" onclick="openSlideMenu()">
+        <a onclick="openSlideMenu()">
             <div class="toggle_btn" onclick="toggleSidebar()">
                 <span></span>
                 <span></span>
@@ -23,7 +22,7 @@
             </div>
         </a>
         </span>
-      </nav>
+    </nav>
         
     <div class="page-lang">
       <img class="current-lang" alt="English language" src="images/icon/american-flag.png">
@@ -31,9 +30,9 @@
     </div>
     
     <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close" onclick="closeSlideMenu()"> &times;</a>
+        <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
         
-        <a href="MainPage.html">
+        <a href="WelcomePage.html">
             <img src="Images/Icon/home-icon.png">
             <p>Home</p>
         </a>
@@ -53,48 +52,70 @@
             <p>Features</p>
         </a>
         
-        <a href="">
-            <img src="Images/Icon/problem.png">
-            <p>Archive</p>
-        </a>
-        
-         <a href="WhoAreWe.html">
+         <a href="Abouttus.html">
             <img src="Images/Icon/about-us.png">
             <p>About us</p>
         </a>
     </div>
         
-  <div id="wrapper">
-      <h1> Solution </h1>
+    <div id="wrapper">
+        <div id="paper-wrapper">
+        
+        <h1> Solution </h1>
       
-      <h2> What do we offer</h2>
-          
-        <p class="non-centered"> Interact is a solution in the form of an app, which works like a form for social media, but for people who struggle with loneliness and/or depression. You can meet other people going through the same situation as you. You can choose to access forums and search for topics related to your issues or even create a topic of discussion of your own. If you are looking for a more personal approach, you can anonymously contact other people which have the same interests as you.</p>
-        <br>
-        <p class="non-centered"> With our app, LGBT members can expand their social network and at the same time get support from others with the same sexual orientation and who go through the same situations they do, something that may help improving their mental wellbeing.</p>
+        <h2> What do we offer</h2>
       
-            <img src="Images/LGBT.jpg"/><br>
+        <p class="solution-text"> Interact is a solution in the form of an app, which works like a form for social media, but also with special features designed for people who struggle with loneliness and/or depression. You can meet other people going through the same situation as you. You can choose to access forums and search for topics related to your issues or even create a topic of discussion of your own. If you are looking for a more personal approach, you can anonymously contact other people which have the same interests as you. </p>
+        
+        <div class="image-right-frame-source">
+            <img 
+                src="Images/LGBT.jpg"
+                alt="Picture of LGBT members gathering"/>
+            
+            <p> Google search, labeled for noncommercial reuse. Source: <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg/1280px-S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg">upload.wikimedia.org</a></p>
+        </div>
+            
+        <p id="LGBT-text">
+        With our app, LGBT members who, for example, feel unaknowledged or do not receive support from their families, can expand their social network and at the same time get support from others with the same sexual orientation and who go through the same situations they do, something that may help improving their mental wellbeing.</p>
+         
+        <div class="image-left-frame-source">
+            <img src="Images/bullying.jpg"
+                 alt="Picture of female student suffering from bullying"/>
+             <p>Source: <a href="https://www.flickr.com/photos/53771866@N05/7040908861">flickr.com</a></p> <p>(Picture obtained from Flickr, name: Twentyfour Students. They were duly informed of usage of this picture.)</p>
+        </div>
+        <p id="bullying-text"> Our app would serve as a form of support for students who suffer with bullying. They could access a discussion forum about these topics, mediated by a competent person to avoid misuse and avoid heated discussions. They could also contact other people the same age and who are experiencing the same of problems.</p>
       
         
-        <p class="non-centered">Our app would serve as a form of support for students who suffer with bullying. They could access a discussion forum about these topics, mediated by a competent person to avoid misuse and avoid heated discussions. They could also contact other people the same age and who are experiencing the same of problems.</p>
-        <br>
-        <p class="non-centered">Refugees can also find a comforting environment when using our app, by finding other people who come from the same places as them or even meeting people from the host country who sympathize with their situation and are eager to help them.</p>
+        <div class="image-right-frame-source">
+            <img src="Images/refugees.jpg"
+             alt="Picture of female refugee finding comfort"/>
+            <p>Google search, labeled for noncommercial reuse. Source: <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/USAID_Assistant_Administrator_Lindborg_Interacts_With_Syrian_Refugees_%288411500481%29.jpg">upload.wikimedia.org</a></p> 
+        </div>
+            
+        <p id="refugee-text"> Refugees can also find a comforting environment when using our app, by finding other people who come from the same places as them or even meeting people from the host country who sympathize with their situation and are eager to help them.</p><br>
       
-            <img src="Images/refugees.jpg"/>
-      
-        <br>
-        <p class="non-centered">Taking into consideration all the above, our intention is to improve the mental health of our users, by having an inclusive environment for all groups of people who for some reason feel lonely or depressed. Studies show that social interaction helps keeping people mentally healthy. </p>
+        
+        <p id="friendship-text"> Taking into consideration all the above, our intention is to improve the mental health of our users, by having an inclusive environment for all groups of people who for some reason feel lonely or depressed. Studies show that social interaction helps keeping people mentally healthy. </p>
        
-            <img src="Images/Friends.jpg"/><br>
+        <div class="image-center-frame-source">
+            <img src="Images/Friends.jpg"
+                 alt="Picture of many hands symbolizing friendship and unity"/> 
+             <p>Google search, labeled for noncommercial reuse. Source: <a href="http://www.coram.org.uk/sites/default/files/iStock_000033106270XXXLarge%20Hands%20Together%20Mixed%20Ethnicity_0.jpg">coram.org.uk.</a></p>
+        </div>
       
       
       <h3> Sources: </h3>
       
-      <a href="https://www.talkspace.com/blog/2017/05/good-mental-health-12-therapist-approved-tips/">https://www.talkspace.com/blog/2017/05/good-mental-health-12-therapist-approved-tips/</a>
-      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg/1280px-S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg">https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg/1280px-S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg</a><p>Picture 1</p><br>
-      <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/USAID_Assistant_Administrator_Lindborg_Interacts_With_Syrian_Refugees_%288411500481%29.jpg"> https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/USAID_Assistant_Administrator_Lindborg_Interacts_With_Syrian_Refugees_%288411500481%29.jpg </a> <p>Picture 2</p><br>
-      <a href="http://www.coram.org.uk/sites/default/files/iStock_000033106270XXXLarge%20Hands%20Together%20Mixed%20Ethnicity_0.jpg"> http://www.coram.org.uk/sites/default/files/iStock_000033106270XXXLarge%20Hands%20Together%20Mixed%20Ethnicity_0.jpg</a> <p>Picture 3</p><br>
+      <p><a href="https://www.talkspace.com/blog/2017/05/good-mental-health-12-therapist-approved-tips/">1.source for the first picture.</a></p><br>
       
+      <p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg/1280px-S%C3%A3o_Paulo_LGBT_Pride_Parade_2014_%2814108174665%29.jpg">2.source for the second picture.</a></p><br>
+      
+     <p><a href="https://www.flickr.com/photos/53771866@N05/7040908861">3.Picture obtained from Flickr, name: Twentyfour Students. They were duly informed of usage of this picture.</a></p><br>
+      
+      <p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/USAID_Assistant_Administrator_Lindborg_Interacts_With_Syrian_Refugees_%288411500481%29.jpg">4.Source for the fourth picture.</a></p><br>
+      
+      <p><a href="http://www.coram.org.uk/sites/default/files/iStock_000033106270XXXLarge%20Hands%20Together%20Mixed%20Ethnicity_0.jpg">5.source for the last picuture.</a></p><br>
+        </div>
     </div>
     
     

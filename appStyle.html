@@ -15,7 +15,10 @@
         <p>Anonymous Bear</p>
       </div>
       <div class="mobile-body-chat">
-        <p class="auto-msg starting-msg">You're now chatting with anonymous <span class="sender-name"><b>Bear</b></span><br><br> <b>Similiarties:</b> Male, aged 19-24, Oslo, student, cycling, kiting, christian, fears spiders<br><br> <b>Other things:</b> Social anxiety</p>
+        <p class="auto-msg starting-msg">You're now chatting with anonymous <span class="sender-name"><b>Bear</b></span><br><br> 
+        <b>General criteria:</b> Male, Aged 19-24, Oslo, Student<br><br>
+        <b>Hobbies/Interests:</b> Cycling, Reading mystery<br><br>
+        <b>Personal things:</b> Arachnophobia (Spiders), Social anxiety</p>
         
         <hr class="mobile-lines">
         
@@ -56,17 +59,21 @@
         <p>Anonymous Bear</p>
       </div>
       <div class="mobile-body-chat">
-
+      
+        <p class="auto-msg">* Never give up identifiable or personal information to strangers<p>
+        
+        <hr class="mobile-lines">
+        
         <p class="msg-right"><span class="your-name">Cat (You)</span><br> It's a nice ice breaker, yeah :) well..I guess it's that constant fear of making a fool of myself.. and everybody laughing</p>
 
+        <p class="msg-left"><span class="sender-name">Bear</span><br> Yeah, I often get that feeling too. I hate it.</p>         
+        
         <hr class="mobile-lines">
         
         <p class="auto-msg">* If meeting someone in person, do it in public and/or with a friend</p>
         
         <hr class="mobile-lines">
         
-        <p class="msg-left"><span class="sender-name">Bear</span><br> Yeah, I often get that feeling too. I hate it.</p>  
-
         <p class="msg-right"><span class="your-name">Cat (You)</span><br> Yup. Well..you do a lot of cycling?</p>        
         <p class="msg-left"><span class="sender-name">Bear</span><br> I usually do a 2-3hr trip every week. It's kinda my way to let off some steam, and get some peace of mind. Probably my favorite hobby. How about you?</p>  
 
@@ -91,25 +98,38 @@
         <img class="img-dropdown" src="images/app/menu-icon.png" alt="App Menu">
         <div class="mobile-dropdown-menu">
           <p>Home</p>
-          <hr class="mobile-lines">
+          <hr class="mobile-lines-dropdown">
           <p>Search</p>
           <p>Chats</p>
           <p>Communities</p>
-          <hr class="mobile-lines">
+          <hr class="mobile-lines-dropdown">
           <p>Profile</p>
           <p>Settings</p>
-          <hr class="mobile-lines">
+          <hr class="mobile-lines-dropdown">
           <p>Log out</p>
-          <hr class="mobile-lines">
+          <hr class="mobile-lines-dropdown">
           <p>Report User</p>
         </div>
       <p>Anonymous Bear</p>
       </div>
       <div class="mobile-body-chat">
-        <p class="auto-msg starting-msg">You're now chatting with anonymous <span class="sender-name"><b>Bear</b></span><br><br> <b>Similiarties:</b> Male, aged 19-24, Oslo, student, cycling, kiting, christian, fears spiders<br><br> <b>Other things:</b> Social anxiety</p>
+      
+        <p class="msg-left">kinda my way to let off some steam, and get some peace of mind. Probably my favorite hobby. How about you?</p>  
+        
+        <p class="msg-right"><span class="your-name">Cat (You)</span><br> Cool, I don't use my bike nearly enough. Know of any good trips I could take?</p>
+
+        <p class="msg-left"><span class="sender-name">Bear</span><br> Well, depends on where in Oslo you live, but like to Maridalen can be a nice trip. It's a bit crowded though and quite a bit of traffic. Other than that, pretty good.</p>
+        
+        <p class="msg-right"><span class="your-name">Cat (You)</span><br> Okay, I think I've been there once or twice. A bit of traffic yeah, but pretty beautiful along the lake.</p>
 
         <hr class="mobile-lines">
-
+        
+        <p class="auto-msg">* When reporting someone, all activity between parties is saved for inspection</p><br>
+        
+        <p class="auto-msg">* These messages can be turned off, or the interval at which they appear changed, in the settings</p>
+        
+        <hr class="mobile-lines">       
+        
       </div>
       <div class="mobile-bottom">
         <div class="mobile-bottom-inputs">
@@ -163,15 +183,34 @@
     </div>
 
     
-    
+     <div class="mobile-example">
+      <div class="mobile-login">
+        <h1>Interact</h1>
+        <h2>Login</h2>
+        <h4>Username:</h4>
+        <p>(E-mail or phone number)</p>
+        <div class="mobile-login-input"></div>
+        <h4>Password:</h4>
+        <div class="mobile-login-input"></div>
+        <h3>Register new user</h3>
+        <h3>Forgot password</h3>
+        <div class="image-selector">
+          <p>Select language:</p>
+          <p><b>English (US)</b></p>
+        </div>
+      </div>
+    </div>   
 
     <div class="mobile-example">
       <div class="mobile-register">
         <h1>Registration</h1>
         <span class="mobile-register-input-login"></span>
         <h4>E-mail:</h4><span class="mobile-register-input-login"></span>
+        <h4>Repeat:</h4><hr class="mobile-lines"><span class="mobile-register-input-login"></span>            
+        <h4>Password:</h4><span class="mobile-register-input-login"></span> 
+        <h4>Repeat:</h4><hr class="mobile-lines"> <span class="mobile-register-input-login"></span>
         <h4>Phone number:</h4><span class="mobile-register-input-login"></span>
-        <h4>Password:</h4>
+        <h4>Repeat:</h4>        
         <p>Once done, you will receive a confirmation SMS</p>
         <hr class="mobile-lines">
         
@@ -227,6 +266,15 @@
             <option selected>Norway</option>
           </select>    
         <h4>Location:</h4>
+
+        <input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted">
+            <option selected>Munich</option>
+          </select>
+          <select class="mobile-select-parted select-country">
+            <option selected>Germany</option>
+          </select>    
+        <h4>Origin:</h4>
         
         <input class="w3-check" type="checkbox" disabled>
         <span class="mobile-register-input-parted"></span> 
@@ -241,18 +289,18 @@
           </select>
         <h4>Civil status:</h4>
   
-        <input class="w3-check" type="checkbox" disabled>
-        <span class="mobile-register-input-parted"></span>
+        <input class="w3-check" type="checkbox" checked>
+        <span class="mobile-register-input-parted">Engineer</span>
           <select class="mobile-select-parted">
             <option>N/A</option>
             <option>Applying</option>
             <option>Disabled</option>
             <option>Freelance</option>            
             <option>Retired</option>
-            <option>Student</option>
+            <option selected>Student</option>
             <option>Worker</option>
           </select>   
-        <h4>Work/Studies:</h4>
+        <h4>Occupation:</h4>
         
         
         <input class="w3-check" type="checkbox" checked="checked">
@@ -267,31 +315,242 @@
             <option>Other</option>
           </select>           
         <h4>Religion:</h4><input class="w3-check" type="checkbox">
-      
-        <h4>Fobias/Fears:</h4>
-        <hr class="mobile-lines">
-        
-        <h3>Other things</h3>     
+         
       </div>
     </div> 
 
-    
+  
+
+    <div class="mobile-example">
+      <div class="mobile-register">    
+        
+        <input class="w3-check" type="checkbox" checked="checked">
+        <span class="mobile-register-input-parted"></span>          
+          <select class="mobile-select-parted">
+            <option>N/A</option>
+            <option selected>Female</option>
+            <option>Male</option>
+            <option>Transgender</option>
+          </select>          
+        <h4>Gender:</h4>
+        
+        <input class="w3-check" type="checkbox" checked="checked">
+        <span class="mobile-register-input-parted">23</span> 
+          <select class="mobile-select-parted">
+            <option>N/A</option>
+            <option>13-15</option>
+            <option>16-19</option>
+            <option selected>19-24</option>
+            <option>25-29</option>
+            <option>30-34</option>
+            <option>35-39</option>
+            <option>40-44</option>
+            <option>45-49</option>
+            <option>50-54</option>
+            <option>55-59</option>
+            <option>60-64</option>
+            <option>65-69</option>
+            <option>70-74</option>
+            <option>75+</option>
+          </select>
+         <h4>Age:</h4>
+         
+        <input class="w3-check" type="checkbox">
+          <select class="mobile-select-parted">
+            <option>City</option>
+            <option>Bergen</option>
+            <option>Drammen</option>
+            <option selected>Oslo</option>
+            <option>Stavanger</option>
+            <option>Trondheim</option>
+          </select>
+          <select class="mobile-select-parted select-country">
+            <option>Country</option>
+            <option>Germany</option>
+            <option>Great Britain</option>
+            <option selected>Norway</option>
+          </select>    
+        <h4>Location:</h4>
+
+        <input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted">
+            <option selected>Munich</option>
+          </select>
+          <select class="mobile-select-parted select-country">
+            <option selected>Germany</option>
+          </select>    
+        <h4>Origin:</h4>
+        
+        <input class="w3-check" type="checkbox" disabled>
+        <span class="mobile-register-input-parted"></span> 
+          <select class="mobile-select-parted">
+            <option>N/A</option>
+            <option>Complicated</option>
+            <option>Dating</option>
+            <option>Divorced</option>
+            <option>Relationship</option>
+            <option>Single</option>
+            <option>Widow/-er</option>
+          </select>
+        <h4>Civil status:</h4>
+  
+        <input class="w3-check" type="checkbox" checked>
+        <span class="mobile-register-input-parted">Engineer</span>
+          <select class="mobile-select-parted">
+            <option>N/A</option>
+            <option>Applying</option>
+            <option>Disabled</option>
+            <option>Freelance</option>            
+            <option>Retired</option>
+            <option selected>Student</option>
+            <option>Worker</option>
+          </select>   
+        <h4>Occupation:</h4>
+        
+        
+        <input class="w3-check" type="checkbox" checked="checked">
+        <span class="mobile-register-input-parted">Spiritual</span>        
+          <select class="mobile-select-parted">
+            <option>N/A</option>
+            <option>Budhist</option>            
+            <option>Christian</option>
+            <option>Hindu</option>
+            <option>Jew</option>
+            <option>Muslim</option>
+            <option>Other</option>
+          </select>           
+        <h4>Religion:</h4>
+
+        <hr class="mobile-lines">
+        
+				<h2>Hobbies and interests</h2>
+				
+        <input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted">
+            <option selected>Football</option>
+          </select>
+          <select class="mobile-select-parted select-country">
+            <option selected>Sport</option>
+          </select>    
+        <h4>Interest/Hobby 1:</h4>         
+				
+        <input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted">
+            <option selected>Cycling</option>
+          </select>
+          <select class="mobile-select-parted select-country">
+            <option selected>Outdoors</option>
+          </select>           
+        <h4>Interest/Hobby 2:</h4>
+				
+        <input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted">
+            <option selected>Fantasy</option>
+          </select>
+          <select class="mobile-select-parted select-country">
+            <option selected>Reading</option>
+          </select>           
+        <h4>Interest/Hobby 3:</h4>
+				
+        <div class="registration-add-another"><h4>+</h4><p>Add another interest or hobby</p></div>
+        
+        <div class="clear"></div>
+        
+				<hr class="mobile-lines">
+        
+				<h2>Personal things</h2>
+        
+				<input class="w3-check" type="checkbox" checked>        
+          <select class="mobile-select-parted parted-enlarged">
+            <option selected>Light teasing</option>
+            <option>Homosexual</option>
+            <option>Straight</option>
+						<option>Other</option>
+          </select>           
+        <h4>Negative social experience:</h4>  	
+        
+ 				<input class="w3-check" type="checkbox" disabled>        
+          <select class="mobile-select-parted parted-enlarged">
+            <option selected>N/A</option>
+            <option>Homosexual</option>
+            <option>Straight</option>
+						<option>Other</option>
+          </select>           
+        <h4>Physical challenges:</h4>  
+        
+				<input class="w3-check" type="checkbox">        
+          <select class="mobile-select-parted parted-enlarged">
+            <option selected>Bisexual</option>
+            <option>Homosexual</option>
+            <option>Straight</option>
+						<option>Other</option>
+          </select>           
+        <h4>Sexual Orientation:</h4>
+
+				<input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted parted-enlarged">
+            <option selected>Heights</option>
+          </select>
+        <h4>Phobia 1:</h4>
+        
+      </div>
+    </div> 
+
+
+
+  
     
     
     <div class="mobile-example">
-      <div class="mobile-register">
-        <input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>
-        <h4>Work/Studies:</h4><input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>
-        <h4>Religion:</h4><input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>      
-        <h4>Fobias/Fears:</h4>
+      <div class="mobile-register">			
+
+				<input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted parted-enlarged">
+            <option selected>Heights</option>
+          </select>
+        <h4>Phobia 1:</h4>
+      
+				<input class="w3-check" type="checkbox" checked="checked">
+          <select class="mobile-select-parted parted-enlarged">
+            <option selected>Spiders</option>
+          </select>    
+        <h4>Phobia 2:</h4>
+				
+				<input class="w3-check" type="checkbox" disabled>       
+          <select class="mobile-select-parted parted-enlarged">
+            <option>N/A</option>
+          </select>           
+        <h4>Cognitive challenges:</h4> 
+
+        <input class="w3-check" type="checkbox">       
+          <select class="mobile-select-parted parted-enlarged">
+            <option>Depression</option>
+          </select>           
+        <h4>Psychological challenges:</h4>
+				
+				<input class="w3-check" type="checkbox" checked="checked">       
+          <select class="mobile-select-parted parted-enlarged">
+            <option>Social anxiety</option>
+          </select>           
+        <h4>Psychosocial challenges:</h4>
+				
+        <div class="registration-add-another"><h4>+</h4><p>Add another challenge or phobia</p></div>
+        
+        <div class="clear"></div>
+				
+				<hr class="mobile-lines">	
+        
+        <h2>Expand profile</h2>
+        
+        <input class="expand-profile" type=text></input>
+        
+				<div class="clear"></div>
+        
         <hr class="mobile-lines">
         
-        <h3>Other things</h3>
-        <input class="w3-check" type="checkbox"><span class="mobile-register-input"></span>
-        <h4>Age:</h4><input class="w3-check" type="checkbox" checked="checked"><span class="mobile-register-input"></span>
-        <h4>Location:</h4>  
-
-        <h1 class="mobile-complete-registration">Done</h1>
+				<p class="mobile-profile-disclaimer">We continously improve our app. If you feel an important option is lacking, please let us know.</p>
+				
+        <h1 class="mobile-complete-registration">Complete</h1>
       </div>
     </div> 
 
@@ -378,8 +637,47 @@
         <img src="images/app/menu-icon.png" alt="App Menu">
         <p>Search</p>
       </div>
+      <div class="mobile-search">
       
-      <h2>Search</h2>
+        <h1>Search</h1>
+        <p>Available criteria dependent on profile choices. Both parties will see eachother's selected options.</p>
+        
+        <h2>General criteria</h2>
+        <div class="mobile-search-boxes-container">
+          <div class="mobile-search-boxes"><h4>Gender: </h4><select><option>Male</option></select></div>
+          <div class="mobile-search-boxes"><h4>Age: </h4><select><option>19-24</option></select></div>
+          <div class="mobile-search-boxes"><h4>Location: </h4><select><option>Oslo</option></select></div>
+          <div class="mobile-search-boxes"><h4>Origin: </h4><select><option>N/A</option></select></div>
+          <div class="mobile-search-boxes"><h4>Occupation: </h4><select><option>Student</option></select></div>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <h2>Hobbies and interests</h2>
+        <div class="mobile-search-boxes-container">
+          <div class="mobile-search-boxes"><h4>Interest/Hobby 1: </h4><select><option>Sport</option></select><select><option>Cycling</option></select></div>
+          <div class="clear"></div>
+          <div class="mobile-search-boxes"><h4>Interest/Hobby 2: </h4><select><option>Reading</option></select><select><option>N/A</option></select></div>
+          <div class="clear"></div>
+          <div class="mobile-search-boxes"><h4>Interest/Hobby 3: </h4><select><option>N/A</option></select><select><option>N/A</option></select></div>       
+        </div>
+          
+        <div class="clear"></div>
+          
+        <h2>Personal things</h2>
+        <div class="mobile-search-boxes-container">
+          <div class="mobile-search-boxes"><h4>Negative social experience:</h4><select><option>N/A</option></select></div>
+          <div class="mobile-search-boxes"><h4>Sexual Orientation:</h4><select><option>N/A</option></select></div>
+          <div class="mobile-search-boxes"><h4>Phobia 1:</h4><select><option>Spiders</option></select></div>
+          <div class="mobile-search-boxes"><h4>Phobia 2:</h4><select><option>N/A</option></select></div>
+          <div class="mobile-search-boxes"><h4>Psychological challenges:</h4><select><option>N/A</option></select></div>
+          <div class="mobile-search-boxes"><h4>Psychosocial challenges:</h4><select><option>Social anxiety</option></select></div>        
+        </div>
+        
+        
+      </div>
+      
+      
     </div> 
     
     

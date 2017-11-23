@@ -420,7 +420,7 @@ background-attachment: fixed;
   line-height: 1.5em;
 	padding: 20px 0;
   font-size: 1.2em !important;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
 
 .mobile-example-container-left {

@@ -1,5 +1,5 @@
 function openSlideMenu(){
-            document.getElementById('side-menu').style.width = '10%';
+            document.getElementById('side-menu').style.width = '14%';
             document.getElementById('/wrapper').style.marginLeft = '10%';
         }
         

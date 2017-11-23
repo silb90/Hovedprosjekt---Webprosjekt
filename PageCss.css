@@ -452,7 +452,11 @@ background-attachment: fixed;
   width: 32%;
 	min-width: 200px;
 	max-width: 350px;
-  margin: 1%;
+}
+
+.mobile-example-container-center img:nth-child(even) {
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 

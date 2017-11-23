@@ -193,7 +193,7 @@ body {
 }
 /* End of navbar-toggle-btn */
 
-#navbar-top {
+.navbar-top {
     width: 45%;
     margin: 0 auto;
     margin-top: 3%;
@@ -203,14 +203,14 @@ body {
     opacity: 0.9;
 }
 
-#navbar-top > a {
+.navbar-top > a {
     text-decoration: none;
     padding: 3%;
     color: black;
     font-size: 28px;
 }
 
-#navbar-top > a:hover{
+.navbar-top > a:hover{
     background-color: #ff8000;
 }
 

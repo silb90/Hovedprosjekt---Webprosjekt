@@ -22,10 +22,9 @@ body {
 
 #wrapper{
     width: 80%;
-    padding-left: 115px;
     transition: margin-left 0.5s;
     overflow: hidden;
-    margin: ;
+    margin: 0 auto;
 }
 
 #paper-wrapper {

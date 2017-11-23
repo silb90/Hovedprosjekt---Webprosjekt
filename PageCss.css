@@ -25,14 +25,22 @@ body {
     transition: margin-left 0.5s;
     overflow: hidden;
     margin: 0 auto;
+<<<<<<< HEAD
     max-width: 1280px;
+=======
+    max-width: 1440px;
+>>>>>>> master
 }
 
 #paper-wrapper {
   
   background-color: rgba(255,255,255,0.8);
   margin: 10% 15px;
+<<<<<<< HEAD
   padding: 10%;
+=======
+  padding: 5%;
+>>>>>>> master
   box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 	-o-box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);

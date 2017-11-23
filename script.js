@@ -9,5 +9,5 @@ function closeSlideMenu(){
         }
 
 
-var x = document.getElementsByClassName(
-            'side-nav').style.visibility = "hidden";
+var element = document.getElementById('navbar-top');
+element.style.display = 'none';

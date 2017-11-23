@@ -6,7 +6,7 @@ body {
 		background: -webkit-repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px, #FF8C00 1000px, #FF8C00 2000px);
 		background: -o-repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px, #FF8C00 1000px, #FF8C00 2000px);
 		background: -moz-repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px, #FF8C00 1000px, #FF8C00 2000px);		
-    background-size:;
+   
     background-repeat: no-repeat;
     overflow-x: hidden;
     
@@ -296,6 +296,8 @@ body {
     background-image: url("images/icon/BG.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+background-attachment: fixed;
+    
 }
 
 

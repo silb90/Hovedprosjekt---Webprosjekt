@@ -535,7 +535,7 @@ background-attachment: fixed;
 }
 
 #LGBT-text {
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;
@@ -543,14 +543,14 @@ background-attachment: fixed;
 
 #bullying-text {
     text-align: left;
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.8em;
     margin-bottom: 5%;
 }
 
 #refugee-text {
     text-align: left;
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;   

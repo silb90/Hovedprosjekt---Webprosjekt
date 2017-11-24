@@ -85,7 +85,6 @@ body {
   margin: 50px auto;
   background-color: lightgray;
   border: 1px solid black;
-  padding: 10px;
 	min-width: 300px;
 }
 
@@ -94,8 +93,8 @@ body {
   text-align: center;
   display: block;
   margin: 0 auto !important;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     border: 2px solid;
 }
 
@@ -105,9 +104,9 @@ body {
     text-align: center;
   background-color: lightgray;
   border: 1px solid black;
-  padding: 10px;
-     margin-bottom: 2%;
-    margin-right: 2%;
+  padding: 0px;
+     margin-bottom: 1%;
+    margin-right: 1%;
     border: 2px solid;
 }
 
@@ -469,15 +468,20 @@ background-attachment: fixed;
 
 /* Start of solution page */
 
+.solution-wrapper {
+    padding: 7%;
+}
+
+
 .solution-text {
     text-align: center;
-    font-size: 28px;
+    font-size: 32px !important;
     line-height: 1.8em;
-    margin-bottom: 10%;
+    
 }
 
 #LGBT-text {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;
@@ -485,25 +489,17 @@ background-attachment: fixed;
 
 #bullying-text {
     text-align: left;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.8em;
     margin-bottom: 5%;
 }
 
 #refugee-text {
     text-align: left;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;   
-}
-
-#friendship-text {
-    text-align: center;
-    font-size: 28px;
-    line-height: 1.8em;
-    margin-top: 10%;
-    margin-bottom: 5%;
 }
 
 

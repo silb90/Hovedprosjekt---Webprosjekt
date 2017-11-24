@@ -10,7 +10,8 @@ body {
    
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+    font-family: "Open Sans", sans-serif;
+		background-size: 5000px 5000px;
     
 }
 
@@ -55,8 +56,8 @@ body {
   text-align: center;
 }
 
-#paper-wrapper > p {
-  font-size: 1em;
+#paper-wrapper  p {
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
@@ -214,6 +215,66 @@ body {
     background-color: #ff8000;
 }
 
+
+
+
+
+
+
+.topbar {
+	background-color: orangered;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;		
+	z-index: 1;
+	height: 50px;
+	overflow: none;
+	border-bottom: 1px solid black;
+}
+
+.topbar-anchor {
+	font-size: 100%;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 0 25px;
+	border-left: 1px solid black;
+	line-height: 50px;
+}
+
+.topbar-anchor:nth-child(4) {
+	border-right: 1px solid black;
+}
+
+.page-lang {
+	float: right;
+  background-color:#8cb3d9;
+  z-index: 1;
+}
+
+.page-lang img{
+  width: 48px;
+  height: 30px;
+  float: left;
+  padding: 3px;
+  margin: 0;
+  border: 4px solid  #333;
+  
+  border-right:1px solid #fff;
+
+}
+ 
+.current-lang {
+  opacity: 0.5;
+}
+
+
+
+
+
+
 /* Start of sidebar */
 
 .side-nav{
@@ -283,30 +344,6 @@ body {
 /* End of sidebar */
 
 
-.page-lang {
-  position: absolute;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color:#8cb3d9;
-  z-index: 1;
-}
-
-.page-lang img{
-  width: 48px;
-  height: 30px;
-  float: left;
-  padding: 3px;
-  margin: 0;
-  border: 4px solid  #333;
-  
-  border-right:1px solid #fff;
-
-}
- 
-.current-lang {
-  opacity: 0.5;
-}
 
 
 
@@ -418,7 +455,6 @@ background-attachment: fixed;
   line-height: 1.5em;
 	padding: 20px 0;
   font-size: 1.2em !important;
-  font-family: "Open Sans", sans-serif;
 }
 
 .features-block h2 {
@@ -481,7 +517,7 @@ background-attachment: fixed;
 }
 
 #LGBT-text {
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;
@@ -489,14 +525,14 @@ background-attachment: fixed;
 
 #bullying-text {
     text-align: left;
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.8em;
     margin-bottom: 5%;
 }
 
 #refugee-text {
     text-align: left;
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 1.8em;
     margin-bottom: 5%;
     clear: left;   

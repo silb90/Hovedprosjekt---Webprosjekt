@@ -10,5 +10,5 @@ function closeSlideMenu(){
         }
 
 
-var element = document.getElementById('navbar-top');
+var element = document.getElementById('topbar');
 element.style.display = 'none';

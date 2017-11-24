@@ -10,19 +10,61 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-
-      <div id="topbar">  
-			<div class="center">
-				<a class="topbar-anchor" href="WelcomePage.html">Interact<img class="logo" src="images/icon/bare-logo.png"></a>
-			  <a class="topbar-anchor" href="OurPurpose.html"> Background </a>
-        <a class="topbar-anchor" href="HowItWorks.html"> Solution</a>
+  <nav class="navbar">
         
-        <a class="topbar-anchor" href="features.html"> Features</a>
+        <span class="open-slide">
+        <a onclick="openSlideMenu()">
+            <div class="toggle_btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        </span>
+    </nav>
+		   <div id="side-menu" class="side-nav">
+        <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
         
-        <a class="topbar-anchor" href="Abouttus.html"> About us</a>
+        <a href="WelcomePage.html">
+            <img src="Images/Icon/home-icon.png">
+            <p>Home</p>
+        </a>
+        
+        <a href="OurPurpose.html">
+            <img src="Images/Icon/read-more.png">
+            <p>Background</p>
+        </a>
+        
+         <a href="HowItWorks.html">
+            <img src="Images/Icon/solution.png">
+            <p>Solution</p>
+        </a>
+        
+        <a href="features.html">
+            <img src="Images/Icon/features.png">
+            <p>Features</p>
+        </a>
+        
+         <a href="Abouttus.html">
+            <img src="Images/Icon/about-us.png">
+            <p>About us</p>
+        </a>
+    </div>
+		
+		
+		
+      <div id="topbar"> 
 				<a href="norFeatures.html"><img class="language" alt="Norwegian Language" src="images/icon/nor-flag.png"></a>	
-				<img class="language current-lang" alt="English Language" src="images/icon/american-flag.png">						
-			</div>
+				<img class="language current-lang" alt="English Language" src="images/icon/american-flag.png">				
+				<div class="center">
+					<a class="topbar-anchor" href="WelcomePage.html">Interact<img class="logo" src="images/icon/bare-logo.png"></a>
+					<a class="topbar-anchor" href="OurPurpose.html"> Background </a>
+					<a class="topbar-anchor" href="HowItWorks.html"> Solution</a>
+					
+					<a class="topbar-anchor" href="features.html"> Features</a>
+					
+					<a class="topbar-anchor" href="Abouttus.html"> About us</a>
+				</div>
 			</div>      
 
 
@@ -102,5 +144,6 @@
 		
 			</div>
     </div>
+     
   </body>
 </html>

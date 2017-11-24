@@ -1,7 +1,7 @@
 //function dom loaded
 function openSlideMenu(){
-            document.getElementById('side-menu').style.width = '12%';
-            document.getElementById('/wrapper').style.marginLeft = '10%';
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('/wrapper').style.marginLeft = '250px';
         }
         
 function closeSlideMenu(){

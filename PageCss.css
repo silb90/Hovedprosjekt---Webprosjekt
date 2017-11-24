@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-	font-family: raleway, serif;
 	background-color: #FFA500;
     background: repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px, #FF8C00 1000px, #FF8C00 2000px);
 		background: -webkit-repeating-linear-gradient(135deg, #FFA500, #FFA500 1000px, #FF8C00 1000px, #FF8C00 2000px);
@@ -11,7 +10,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
-		background-size: 10000px 10000px;
+		background-size: 15000px 15000px;
     
 }
 

@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
-		background-size: 5000px 5000px;
+		background-size: 10000px 10000px;
     
 }
 
@@ -194,6 +194,39 @@ body {
 }
 /* End of navbar-toggle-btn */
 
+<<<<<<< HEAD
+=======
+.navbar-top {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    padding: 3%;
+    background-color: orangered;
+    opacity: 0.9;
+}
+
+.navbar-top > a {
+    text-decoration: none;
+    padding: 3%;
+    color: black;
+    font-size: 28px;
+}
+
+.navbar-top > a:hover{
+    background-color: #ff8000;
+}
+
+
+
+
+
+.center {
+	margin: 0 auto;
+	width: 90%;
+}
+
+>>>>>>> 358d83c0340fd0201bb2eafa713b67cb0b14441f
 #topbar {
 	background-color: orangered;
 	position: absolute;
@@ -223,7 +256,11 @@ body {
 }
 
 .logo {
-	width: 3%;
+	width: 5%;
+	padding-left: 25px;
+	position: relative;
+	top: 5px;
+	
 }
 
 .language {

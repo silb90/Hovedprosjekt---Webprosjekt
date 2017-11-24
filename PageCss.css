@@ -193,27 +193,6 @@ body {
 }
 /* End of navbar-toggle-btn */
 
-.navbar-top {
-    width: 45%;
-    margin: 0 auto;
-    margin-top: 3%;
-    text-align: center;
-    padding: 3%;
-    background-color: orangered;
-    opacity: 0.9;
-}
-
-.navbar-top > a {
-    text-decoration: none;
-    padding: 3%;
-    color: black;
-    font-size: 28px;
-}
-
-.navbar-top > a:hover{
-    background-color: #ff8000;
-}
-
 
 
 
@@ -237,7 +216,7 @@ body {
 	margin: 0 auto;	
 }
 
-.topbar-anchor {
+#topbar-anchor {
 	font-size: 2em;
 	text-decoration: none;
 	color: black;
@@ -247,7 +226,7 @@ body {
 
 }
 
-.topbar-anchor:hover {
+#topbar-anchor:hover {
 	color: orange;
 }
 

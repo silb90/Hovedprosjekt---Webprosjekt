@@ -541,6 +541,7 @@ body {
 
 #mobile-example-container {
     width: 38%; 
+    max-width: 362px;
     float: left;
 }
 
@@ -551,7 +552,6 @@ body {
   font-family: "Lucida Sans Unicode", serif;
   position: relative;
   float: left;
-  margin-right: 10px;
   max-width: 360px;
   max-height: 640px;
   min-width: 220px;
@@ -682,29 +682,32 @@ body {
 
 /* Settings showcase selectors */
 
-.settings-showcase-container {
-    width: 40%;
+#settings-showcase-container {
+    width: 60%;
+    float: left;
+    padding-left: 10px;
 }
 
-.settings-showcase-container h2 {
-    text-align: left;
-    width: 50%;
-}
 
 .settings-showcase-selectors {
-    background-color: white;
-    width: 25%;
+    width: 48%;
     float: left;
-    height: 50px;
     margin: 0;
+}
+
+.settings-showcase-selectors:nth-child(even) {
+    padding-right: 10px;
 }
 
 .settings-showcase-selectors p {
     float: left;
-    line-height: 50px;
-    width: 50%;
+    width: ;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 !important;
+}
+
+.settings-showcase-selectors select {
+    margin: 10px 0;
 }
 
 .settings-showcase-selectors select, option {
@@ -716,6 +719,7 @@ body {
     background-color: orangered;
     font-weight: bold;
     height: 30px;
+    min-width: 150px;
 }
 
 

@@ -13,7 +13,6 @@ body {
     
 }
 
-
 /*///// General page layout /////*/
 
 .clear {
@@ -58,9 +57,13 @@ body {
 }
 
 .page-lang {
-	float: right;
+	
   background-color:#8cb3d9;
-  z-index: 3;
+  z-index: 1;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .page-lang img{
@@ -376,26 +379,36 @@ body {
 }
 
 .welcome-page-container {
-    max-height: 1080px;
     max-width: 1920px;
     margin: 0 auto;
 }
 
 .welcome-page-container > h1 {
 	text-align: center;
-    min-width: 800px;
-    margin-top:0;
+    width: 300px;
+    display: block;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.welcome-page-container > img {
+	text-align: center;
+    width: 50%;
+    max-width: 300px;
+    display: block;
+    padding: 2%;
+    margin: 0 auto;
 }
 
 .welcome-page-quote {
     text-align: center;
-    background-size: cover;
 	border-radius: 25px;
 	background-color: rgba(255,255,255,0.8);
 	margin: 0 auto 2% auto;
-	width: 65%;
+	width: 90%;
     max-width: 1280px;
-    padding: 10px;
+    min-width: 300px;
+    padding: 20px 10px;
 }
 
 .non-centered {
@@ -409,18 +422,18 @@ body {
 .welcome-page-icon-container {
 	margin: 0 auto;
 	text-align: center;
-    min-width: 800px;
     max-height: 210px;
+    min-width: 280px;
+    margin-bottom: 20px;
 }
 
 .welcome-page-icon {
 	background-color: #ffa64d;
-	padding: 7px;
-	margin: 0 20px;
-	height: 10%;
-	width: 10%;
-    max-height: 125px;
-    max-width: 125px;
+	padding: 15px 7px 7px 7px;
+	margin: 2%;
+    width: 40%;
+    max-height: 95px;
+    max-width: 95px;
 	display: inline-block;
 	text-align: center;
     text-decoration: none;

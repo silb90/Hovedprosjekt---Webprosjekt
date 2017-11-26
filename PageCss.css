@@ -18,7 +18,6 @@ body {
 /* General page layout */
 
 
-
 #sidebar {
   position:absolute;
   top:0px;
@@ -68,8 +67,8 @@ body {
 }
 
 
-#toggle-btn {
 
+#toggle-btn {
   position:absolute;
   left:30px;
   top:10px;

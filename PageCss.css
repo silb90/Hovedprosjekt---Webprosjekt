@@ -24,7 +24,7 @@ body {
     width: 90%;
     margin: 0 auto;
     max-width: 1440px;
-    padding-top: 150px;
+    padding: 150px 0;
 }
 
 #paper-wrapper {
@@ -540,7 +540,7 @@ body {
 /* App example */
 
 #mobile-example-container {
-    width: 50%; 
+    width: 38%; 
     float: left;
 }
 
@@ -551,7 +551,7 @@ body {
   font-family: "Lucida Sans Unicode", serif;
   position: relative;
   float: left;
-  margin: 25px;
+  margin-right: 10px;
   max-width: 360px;
   max-height: 640px;
   min-width: 220px;
@@ -683,6 +683,11 @@ body {
 /* Settings showcase selectors */
 
 .settings-showcase-container {
+    width: 40%;
+}
+
+.settings-showcase-container h2 {
+    text-align: left;
     width: 50%;
 }
 
@@ -694,8 +699,23 @@ body {
     margin: 0;
 }
 
-.settings-showcase-selectors p, select {
+.settings-showcase-selectors p {
     float: left;
+    line-height: 50px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.settings-showcase-selectors select, option {
+    float: right;
+    border: 2px solid black;
+    outline: none;
+    width: 35%;
+    padding-left: 10px;
+    background-color: orangered;
+    font-weight: bold;
+    height: 30px;
 }
 
 

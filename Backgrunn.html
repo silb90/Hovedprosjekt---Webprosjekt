@@ -6,73 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="PageCss.css">
-    
+     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="appSettings.js"></script>
   </head>
   <body>
       
-  <nav class="nav-bar">
-        <span class="open-slide">
-        <a onclick="openSlideMenu()">
-            <div class="toggle_btn" onclick="toggleSidebar()">
-                <span></span>
-                <span></span>
-                <span></span>
+ <div id="sidebar">
+          <ul>
+            <li><a href="WelcomePage.html">Home</a></li>
+            <li><a href="OurPurpose.html">Background</a></li>
+            <li><a href="HowItWorks.html">Solution</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="Abouttus.html">About us</a></li>
+          </ul>
+        </div>
+        <div id="toggle-btn" onclick="toggleSidebar(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> 
+        
+        <noscript>
+            <div id="sidebar-noscript">
+                <ul>
+                    <li><a href="WelcomePage.html">Home</a></li>
+                    <li><a href="OurPurpose.html">Background</a></li>
+                    <li><a href="HowItWorks.html">Solution</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="Abouttus.html">About us</a></li>
+                </ul>
             </div>
-        </a>
-        </span>
-    </nav>
-      
-      <div id="navbartop">
-        <a class="top-menu" 
-           href="OurPurpose.html"> Background </a>
-        
-         <a class="top-menu" 
-            href="HowItWorks.html"> Solution
-        </a>
-        
-        <a class="top-menu" 
-           href="features.html"> Features
-        </a>
-        
-         <a class="top-menu" 
-            href="Abouttus.html"> About us
-        </a>
-      </div>
-        
-      <div class="page-lang"> 
-        <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
-        <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
-        <a href="NorOurPurpose.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
-    </div> 
-      
-    <div id="side-menu" class="side-nav">
-        <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
-        
-        <a href="WelcomePage.html">
-            <img src="Images/Icon/home-icon.png">
-            <p>Home</p>
-        </a>
-        
-        <a href="OurPurpose.html">
-            <img src="Images/Icon/read-more.png">
-            <p>Background</p>
-        </a>
-        
-         <a href="HowItWorks.html">
-            <img src="Images/Icon/solution.png">
-            <p>Solution</p>
-        </a>
-        
-        <a href="features.html">
-            <img src="Images/Icon/features.png">
-            <p>Features</p>
-        </a>
-        
-         <a href="Abouttus.html">
-            <img src="Images/Icon/about-us.png">
-            <p>About us</p>
-        </a>
+        </noscript>
+
+        <div class="page-lang">
+      <img class="current-lang" alt="English language" src="images/icon/american-flag.png">
+      <a href="norFeatures.html"><img alt="Norwegian language" src="images/icon/nor-flag.png"></a>
     </div>
+        
+        
+    <!-- Topbar altenrativ  
+    <div id="topbar"> 
+        <a href="norFeatures.html"><img class="language" alt="Norwegian Language" src="images/icon/nor-flag.png"></a>   
+        <img class="language current-lang" alt="English Language" src="images/icon/american-flag.png">  
+        
+        <a class="topbar-interact" href="WelcomePage.html">Interact<img class="logo" src="images/icon/bare-logo.png"></a>        
+        <div class="center">
+            
+            <a class="topbar-anchor" href="OurPurpose.html"> Background </a>
+            <a class="topbar-anchor" href="HowItWorks.html"> Solution</a>
+            
+            <a class="topbar-anchor" href="features.html"> Features</a>
+            
+            <a class="topbar-anchor" href="Abouttus.html"> About us</a>
+        </div>
+    </div>   
+    -->
     
   <div class="background-color-white">
 		<div id="wrapper">

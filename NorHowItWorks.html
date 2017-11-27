@@ -12,69 +12,42 @@
 </head>
 
 <body>    
-    <nav class="navbar">
-        <span class="open-slide">
-        <a onclick="openSlideMenu()">
-            <div class="toggle_btn" onclick="toggleSidebar()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </a>
-        </span>
-      </nav>
-        
-    <div class="page-lang">
-      <img class="current-lang" alt="Norwegian language" src= "images/icon/nor-flag.png">
-      <a href="HowItWorks.html"><img alt="English language" src="images/icon/american-flag.png"
-   ></a>
-    </div>
     
-    <div id="side-menu" class="side-nav">
-        <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
-        
-        <a href="NorWelcomePage.html">
-            <img src="Images/Icon/home-icon.png">
-            <p>Hjem</p>
-        </a>
-        
-        <a href="NorOurPurpose.html">
-            <img src="Images/Icon/read-more.png">
-            <p>Bakgrunn</p>
-        </a>
-        
-         <a href="NorHowItWorks.html">
-            <img src="Images/Icon/solution.png">
-            <p>Løsning</p>
-        </a>
-      
 
-        <a href="norFeatures.html">
 
-            <img src="Images/Icon/features.png">
-            <p>Egenskaper</p>
-        </a>
-        
-         <a href="omoss.html">
-            <img src="Images/Icon/about-us.png">
-            <p>Om Oss</p>
-        </a>
-    </div>
-    
-    
-      <div id="topbar"> 
-        <a href="norFeatures.html"><img class="language" alt="Norwegian Language" src="images/icon/nor-flag.png"></a> 
-        <img class="language current-lang" alt="English Language" src="images/icon/american-flag.png">        
-        <div class="center">
-          <a class="topbar-anchor" href="NorWelcomePage.html">Interact<img class="logo" src="images/icon/bare-logo.png"></a>
-          <a class="topbar-anchor" href="NorOurPurpose.html"> Bakgrunn </a>
-          <a class="topbar-anchor" href="NorHowItWorks.html"> Løsning</a>
-          
-          <a class="topbar-anchor" href="norfeatures.html"> Egenskaper</a>
-          
-          <a class="topbar-anchor" href="omoss.html"> Om Oss</a>
+       <div id="sidebar">
+          <ul>
+            <li><a href="NorWelcomePage.html">Hjem</a></li>
+            <li><a href="NorOurPurpose.html">Bakgrunn</a></li>
+            <li><a href="NorHowItWorks.html">Løsning</a></li>
+            <li><a href="NorFeatures.html">Egenskaper</a></li>
+            <li><a href="omoss.html">Om Oss</a></li>
+          </ul>
         </div>
-      </div>  
+        <div id="toggle-btn" onclick="toggleSidebar(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> 
+        
+        <noscript>
+            <div id="sidebar-noscript">
+                <ul>
+                    <li><a href="NorWelcomePage.html">Hjem</a></li>
+                    <li><a href="NorOurPurpose.html">Bakgrunn</a></li>
+                    <li><a href="NorHowItWorks.html">Løsning</a></li>
+                    <li><a href="NorFeatures.html">Egenskaper</a></li>
+                    <li><a href="omoss.html">Om Oss</a></li>
+                </ul>
+            </div>
+        </noscript>
+
+    
+
+    <div class="page-lang">
+      <a href="HowItWorks.html"><img alt="English language" src="images/icon/american-flag.png"></a>
+      <img class="current-lang" alt="Norwegian language" src="images/icon/nor-flag.png">
+    </div>
 
         
     <div id="wrapper">

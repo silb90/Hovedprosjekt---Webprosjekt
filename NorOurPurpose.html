@@ -9,64 +9,40 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    <nav class="navbar">
-        <span class="open-slide">
-        <a onclick="openSlideMenu()">
-            <div class="toggle_btn" onclick="toggleSidebar()">
-                <span></span>
-                <span></span>
-                <span></span>
+   
+
+   <div id="sidebar">
+          <ul>
+            <li><a href="NorWelcomePage.html">Hjem</a></li>
+            <li><a href="NorOurPurpose.html">Bakgrunn</a></li>
+            <li><a href="NorHowItWorks.html">Løsning</a></li>
+            <li><a href="NorFeatures.html">Egenskaper</a></li>
+            <li><a href="omoss.html">Om Oss</a></li>
+          </ul>
+        </div>
+        <div id="toggle-btn" onclick="toggleSidebar(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> 
+        
+        <noscript>
+            <div id="sidebar-noscript">
+                <ul>
+                    <li><a href="NorWelcomePage.html">Hjem</a></li>
+                    <li><a href="NorOurPurpose.html">Bakgrunn</a></li>
+                    <li><a href="NorHowItWorks.html">Løsning</a></li>
+                    <li><a href="NorFeatures.html">Egenskaper</a></li>
+                    <li><a href="omoss.html">Om Oss</a></li>
+                </ul>
             </div>
-        </a>
-        </span>
-      </nav>
-      
-      <div class="navbar-top">
-        <a  href="OurPurpose.html"> Bakgrunn</a>
-        
-         <a href="HowItWorks.html"> Løsning
-        </a>
-        
-        <a href="features.html"> Egensakper
-        </a>
-        
-         <a href="Abouttus.html"> Om oss
-        </a>
-      </div>
-        
-      <div class="page-lang"> 
-        <a href="WelcomePage.html"><img src="Images/Icon/home-icon.png" alt="Home Button"></a>
-        <img class="current-lang" alt="English Language" src="images/icon/american-flag.png">
-        <a href="NorOurPurpose.html"><img alt="Norwegian Language" src="images/icon/nor-flag.png"></a>
-    </div> 
-      
-    <div id="side-menu" class="side-nav">
-        <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
-        
-        <a href="NorWelcomePage.html">
-            <img src="Images/Icon/home-icon.png">
-            <p>Home</p>
-        </a>
-        
-        <a href="NorOurPurpose.html">
-            <img src="Images/Icon/read-more.png">
-            <p>Background</p>
-        </a>
-        
-         <a href="NorHowItWorks.html">
-            <img src="Images/Icon/solution.png">
-            <p>Solution</p>
-        </a>
-        
-        <a href="norFeatures.html">
-            <img src="Images/Icon/features.png">
-            <p>Features</p>
-        </a>
-        
-         <a href="omoss.html">
-            <img src="Images/Icon/about-us.png">
-            <p>About us</p>
-        </a>
+        </noscript>
+
+    
+
+    <div class="page-lang">
+      <a href="OurPurpose.html"><img alt="English language" src="images/icon/american-flag.png"></a>
+      <img class="current-lang" alt="Norwegian language" src="images/icon/nor-flag.png">
     </div>
     
   <div class="background-color-white">

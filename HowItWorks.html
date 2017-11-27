@@ -11,64 +11,58 @@
 </head>
 
 <body>    
-   <nav class="navbar">
+   <div id="sidebar">
+          <ul>
+            <li><a href="WelcomePage.html">Home</a></li>
+            <li><a href="OurPurpose.html">Background</a></li>
+            <li><a href="HowItWorks.html">Solution</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="Abouttus.html">About us</a></li>
+          </ul>
+        </div>
+        <div id="toggle-btn" onclick="toggleSidebar(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> 
         
-        <span class="open-slide">
-        <a onclick="openSlideMenu()">
-            <div class="toggle_btn" onclick="toggleSidebar()">
-                <span></span>
-                <span></span>
-                <span></span>
+        <noscript>
+            <div id="sidebar-noscript">
+                <ul>
+                    <li><a href="WelcomePage.html">Home</a></li>
+                    <li><a href="OurPurpose.html">Background</a></li>
+                    <li><a href="HowItWorks.html">Solution</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="Abouttus.html">About us</a></li>
+                </ul>
             </div>
-        </a>
-        </span>
-    </nav>
-    
-    <div id="topbar">  
-				<a class="topbar-anchor" href="WelcomePage.html"><img class="logo" src="images/icon/bare-logo.png"></a>
-			  <a class="topbar-anchor" href="OurPurpose.html"> Background </a>
-        <a class="topbar-anchor" href="HowItWorks.html"> Solution</a>
-        
-        <a class="topbar-anchor" href="features.html"> Features</a>
-        
-        <a class="topbar-anchor" href="Abouttus.html"> About us</a>
-				<a href="norFeatures.html"><img class="language" alt="Norwegian Language" src="images/icon/nor-flag.png"></a>	
-				<img class="language current-lang" alt="English Language" src="images/icon/american-flag.png">						
-    </div>  
-    
-    <div class="page-lang">
+        </noscript>
+
+        <div class="page-lang">
       <img class="current-lang" alt="English language" src="images/icon/american-flag.png">
       <a href="NorHowItWorks.html"><img alt="Norwegian language" src="images/icon/nor-flag.png"></a>
     </div>
-    
-    <div id="side-menu" class="side-nav">
-        <a class="btn-close" onclick="closeSlideMenu()"> &times;</a>
         
-        <a href="WelcomePage.html">
-            <img src="Images/Icon/home-icon.png">
-            <p>Home</p>
-        </a>
         
-        <a href="OurPurpose.html">
-            <img src="Images/Icon/read-more.png">
-            <p>Background</p>
-        </a>
+    <!-- Topbar altenrativ  
+    <div id="topbar"> 
+        <a href="norFeatures.html"><img class="language" alt="Norwegian Language" src="images/icon/nor-flag.png"></a>   
+        <img class="language current-lang" alt="English Language" src="images/icon/american-flag.png">  
         
-         <a href="HowItWorks.html">
-            <img src="Images/Icon/solution.png">
-            <p>Solution</p>
-        </a>
-        
-        <a href="features.html">
-            <img src="Images/Icon/features.png">
-            <p>Features</p>
-        </a>
-        
-         <a href="Abouttus.html">
-            <img src="Images/Icon/about-us.png">
-            <p>About us</p>
-        </a>
-    </div>
+        <a class="topbar-interact" href="WelcomePage.html">Interact<img class="logo" src="images/icon/bare-logo.png"></a>        
+        <div class="center">
+            
+            <a class="topbar-anchor" href="OurPurpose.html"> Background </a>
+            <a class="topbar-anchor" href="HowItWorks.html"> Solution</a>
+            
+            <a class="topbar-anchor" href="features.html"> Features</a>
+            
+            <a class="topbar-anchor" href="Abouttus.html"> About us</a>
+        </div>
+    </div>   
+    -->
+  
+
         
     <div id="wrapper">
         <div id="paper-wrapper">

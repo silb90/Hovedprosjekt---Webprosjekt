@@ -20,13 +20,15 @@ body {
 }
 
 #wrapper{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     max-width: 1440px;
-    padding: 150px 0;
+    padding: 70px 0;
 }
 
 #paper-wrapper {
+    margin-right: 0;
+    margin-left: 7.5%;
     background-color: rgba(255,255,255,0.8);
     padding: 5%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
@@ -640,7 +642,7 @@ body {
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
-  width: 50%;
+  width: 32%;
 	min-width: 220px;
 	max-width: 350px;
 }
@@ -648,7 +650,7 @@ body {
 .mobile-example-container-right {
   float: right;
   padding: 0 0 10px 10px;
-  width: 50%;
+  width: 32%;
 	min-width: 220px;
 	max-width: 350px;
 }

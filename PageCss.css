@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
-    background-size: 4000px 20000px;
+    background-size: 4000px 25000px;
     
 }
 
@@ -555,15 +555,15 @@ body {
   margin: 0 auto;
   font-weight: bold;
   padding-top: 10px;
-    font-size: 14px !important;
+    font-size: 80% !important;
 }
 
 #mobile-menu-button {
     float: right;
-    margin: 7px 50px 0 0;
+    margin: 7px 13% 0 0;
 }
 
-.moble-menu-lines {
+.mobile-menu-lines {
     display: block;
     width: 25px;
     background: black;
@@ -572,37 +572,12 @@ body {
     border-radius: 100px;
 }
 
-#mobile-top img {
-  width: 25px;
-  float: right;
-  padding-right: ;
-  transform: translateX(-50%);
-  display: inline-block;
-  margin: 5px 10% 0 0;
-}
-
 .mobile-body-chat {
   padding: 0 10px;
 }
 
 .mobile-body-chat p{
   font-size: 14px;
-}
-
-.mobile-lines {
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
-  clear: both;
-	margin: 20px auto;
-}
-
-.mobile-lines-dropdown {
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
-  clear: both;
-	margin: 0;	
 }
 
 .sender-name {
@@ -684,22 +659,24 @@ body {
     padding-left: 10px;
 }
 
+.settings-showcase-center {
+    margin: 0 auto;
+}
 
 .settings-showcase-selectors {
-    width: 48%;
+    width: 49%;
     float: left;
     margin: 0;
 }
 
-.settings-showcase-selectors:nth-child(even) {
-    padding-right: 2%;
+.settings-showcase-selectors:nth-child(odd) {
+    padding-right: 1%;
 }
 
 .settings-showcase-selectors p {
     float: left;
-    width: ;
-    margin: 0;
     padding: 10px 0 !important;
+    margin: 0;
 }
 
 .settings-showcase-selectors select {
@@ -710,13 +687,65 @@ body {
     float: right;
     border: 2px solid black;
     outline: none;
-    width: 150px;
-    padding-left: 10px;
+    width: 50%;
+    max-width: 150px;
+    min-width: 110px;
     background-color: orangered;
     font-weight: bold;
     height: 30px;
 }
 
+@media screen and (max-width: 1000px) {
+    #mobile-example-container {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #settings-showcase-container {
+        width: 100%;
+        float: none;
+        clear: both;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    
+    .settings-showcase-selectors {
+        width: ;
+    }
+    
+
+    .settings-showcase-selectors p {
+        float: none;
+        text-align: center;
+    }
+    
+    .settings-showcase-selectors select, option {
+        float: none;
+        margin: 0 auto 20px auto;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .settings-showcase-selectors {
+        width: 100%;
+    }
+    
+    .settings-showcase-selectors p {
+        float: none;
+        text-align: center;
+    }
+    
+    .settings-showcase-selectors select, option {
+        float: none;
+        margin: 0 auto 20px auto;
+        display: block;
+        width: 100%;
+    }
+
+} 
 /* Settings showcase end */
 
 /*// End App settings //*/

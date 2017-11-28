@@ -660,7 +660,7 @@ body {
 }
 
 .settings-showcase-center {
-    margin: 0 auto;
+    margin:;
 }
 
 .settings-showcase-selectors {
@@ -687,7 +687,7 @@ body {
     float: right;
     border: 2px solid black;
     outline: none;
-    width: 50%;
+    width: 45%;
     max-width: 150px;
     min-width: 110px;
     background-color: orangered;
@@ -728,7 +728,7 @@ body {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 500px) {
     .settings-showcase-selectors {
         width: 100%;
     }

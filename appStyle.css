@@ -514,9 +514,10 @@ body {
   border-radius: 50px;
   border: 2px solid black;
   width: 75%;
-  margin: 50px 22px;
+  margin: 22px 22px;
   text-align: center;
   font-size: 1.4em;
+  font-weight: bold;
 }
 
 .communities-first-page p {
@@ -524,9 +525,10 @@ body {
 	border: 2px solid black;
 	width: 60%;
 	font-size: 1.4em;
-	margin: 20px auto;
+	margin: 50px auto;
 	text-align: center;
 	padding: 20px;
+    font-weight: bold;
 }
 
 .communities-forum-page {

@@ -10,38 +10,36 @@
   </head>
   <body>
    
-
-   <div id="sidebar">
-          <ul>
+    <div id="sidebar">
+        <ul>
             <li><a href="NorWelcomePage.html">Hjem</a></li>
-            <li><a href="NorOurPurpose.html">Bakgrunn</a></li>
-            <li><a href="NorHowItWorks.html">Løsning</a></li>
+            <li><a href="NorBackground.html">Bakgrunn</a></li>
+            <li><a href="NorSolution.html">Løsning</a></li>
             <li><a href="NorFeatures.html">Egenskaper</a></li>
-            <li><a href="omoss.html">Om Oss</a></li>
-          </ul>
+            <li><a href="NorAboutUs.html">Om oss</a></li>
+        </ul>
+    </div>
+    <div id="toggle-btn" onclick="toggleSidebar(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div> 
+    <noscript>
+        <div id="sidebar-noscript">
+            <ul>
+                <li><a href="NorWelcomePage.html">Hjem</a></li>
+                <li><a href="NorBackground.html">Bakgrunn</a></li>
+                <li><a href="NorSolution.html">Løsning</a></li>
+                <li><a href="NorFeatures.html">Egenskaper</a></li>
+                <li><a href="NorAboutUs.html">Om oss</a></li>
+            </ul>
         </div>
-        <div id="toggle-btn" onclick="toggleSidebar(this)">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> 
-        
-        <noscript>
-            <div id="sidebar-noscript">
-                <ul>
-                    <li><a href="NorWelcomePage.html">Hjem</a></li>
-                    <li><a href="NorOurPurpose.html">Bakgrunn</a></li>
-                    <li><a href="NorHowItWorks.html">Løsning</a></li>
-                    <li><a href="NorFeatures.html">Egenskaper</a></li>
-                    <li><a href="omoss.html">Om Oss</a></li>
-                </ul>
-            </div>
-        </noscript>
+    </noscript>
 
     
 
     <div class="page-lang">
-      <a href="OurPurpose.html"><img alt="English language" src="images/icon/american-flag.png"></a>
+      <a href="EngBackground.html"><img alt="English language" src="images/icon/american-flag.png"></a>
       <img class="current-lang" alt="Norwegian language" src="images/icon/nor-flag.png">
     </div>
     
@@ -55,7 +53,7 @@
           <div class="image-center-frame-source"><img src="images/loneliness-image1.jpg" alt="Maleri av en kvinne som står på en strand og ser utover havet."><p>Source: <a class="source-link" href="https://upload.wikimedia.org/wikipedia/commons/6/68/Jacques_Bodin%2C_De_dos_XXXXV%2C_oil_on_canvas.jpg">Wikimedia.org</a><br>Google søk, merket for ikke-kommersielt bruk.</p></div>
 			     <p>Når personer med angst og depresjon snakker med andre, de ofte får en "Jeg er redd for å håndtere den situasjonen" reaksjon. Psykisk helse er ofte romantisert når det gjelder underholdning på sosial media. Vi bor i et samfunn som behandler psykiske problemer som Taboo. I flere kulturer, depresjon og angst er behandlet enten som galskap eller som noe skamfult, noe som gjør at familien deres får dårlige rykter. I et sammfunn der angst ikke er ordentlig forstått og at depresjon ikke er riktig behandlet, en skulle ønske å hjelpe de som lider og som går gjennom så mye på grunn av disse problemene. Derfor, å utvikle en sånn type app vil bringe folk sammen og gjøre det lettere å forstå og å akseptere forskjellige psykiske tilstander. </p>
 			
-          <div class="image-center-frame-source"><img src="images/norstat1.png" alt="Statistikk som viser andel av norsk populasjon som har lite vennekontakt, og som har 2 eller færre personer å regne med ved personlige problemer, rangert etter kjønn og alder. Menn ligger jevnt over noe høyere, og forskjellene øker med alderen. Rundt 10% har lite kontakt med venner, og rundt 22% har 2 eller færre personer de kan regne med."></div>
+          <div class="image-center-frame-source"><img src="images/statistics/norstat1.png" alt="Statistikk som viser andel av norsk populasjon som har lite vennekontakt, og som har 2 eller færre personer å regne med ved personlige problemer, rangert etter kjønn og alder. Menn ligger jevnt over noe høyere, og forskjellene øker med alderen. Rundt 10% har lite kontakt med venner, og rundt 22% har 2 eller færre personer de kan regne med."></div>
       
 			     <p>Med å intervjue noen familier som hadde medlemmer med psykiske utfordringer, depresjon og andre psykiske tilstander, vi fikk med oss viktig feedback om hva disse mennesker går gjennom. For eksempel, en av de familiene vi intervjuet har to små barn som har det veldig vanskelig å få interaksjon med andre mennesker. Som andre barn, de bruker de vanlige sosial media apps som Facebook og Snapchat, men de har ikke mye sosial interaksjon utenfor disse. </p>
 			     
@@ -64,8 +62,8 @@
                 <p> Ifølge mennesker vi har intervjuet, det finnes ikke underholdning spesielt rettet mot folk som har psykiske problemer, en slags teknologi som hjelper folk som har det vanskelig å være sosiale å føle seg forstått og anerkjent.</p>
             
                 <div class="image-center-sidebyside">
-                  <img src="images/norstat2.png" alt="Statistikk som viser andel av norsk populasjon som ikke har en fortrolig person, rangert etter kjønn og familiefase. Generelt høyere for menn, og høyest for folk i alderen 45 år og oppover. Folk uten barn utgjør en merkbar mindre andel.">
-                  <img src="images/norstat3.png" alt="Statistikk som viser andel av norsk populasjon som bor alene, og som har lite kontakt med familie medlemmer, rangert etter alder. Øker generelt ved alder. Andelen som har lite kontakt med foreldre og/eller søsken er omtrent lik. Få personer har lite kontakt med sine barn. Rundt 25% bor alene.">
+                  <img src="images/statistics/norstat2.png" alt="Statistikk som viser andel av norsk populasjon som ikke har en fortrolig person, rangert etter kjønn og familiefase. Generelt høyere for menn, og høyest for folk i alderen 45 år og oppover. Folk uten barn utgjør en merkbar mindre andel.">
+                  <img src="images/statistics/norstat3.png" alt="Statistikk som viser andel av norsk populasjon som bor alene, og som har lite kontakt med familie medlemmer, rangert etter alder. Øker generelt ved alder. Andelen som har lite kontakt med foreldre og/eller søsken er omtrent lik. Få personer har lite kontakt med sine barn. Rundt 25% bor alene.">
                 </div>
                 
                 <div class="clear"></div>

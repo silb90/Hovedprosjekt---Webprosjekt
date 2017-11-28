@@ -312,7 +312,7 @@ body {
 
 /*///// Welcome page /////*/
 .welcome-page-body {
-    background-image: url("images/icon/BG.jpg");
+    background-image: url("images/BackgroundWelcomePage.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
     background-attachment: fixed;

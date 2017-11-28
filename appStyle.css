@@ -514,7 +514,7 @@ body {
   border-radius: 50px;
   border: 2px solid black;
   width: 75%;
-  margin: 22px 22px;
+  margin: 22px;
   text-align: center;
   font-size: 1.4em;
   font-weight: bold;
@@ -523,9 +523,9 @@ body {
 .communities-first-page p {
 	background-color: hotpink;
 	border: 2px solid black;
-	width: 60%;
+	width: 80%;
 	font-size: 1.4em;
-	margin: 50px auto;
+	margin: 20px auto;
 	text-align: center;
 	padding: 20px;
     font-weight: bold;
@@ -569,6 +569,21 @@ body {
 .communities-forum-page h3:first-child {
   margin-top: 0;
   border-top: none;
+}
+
+.forum-message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forum-post {
+    text-align: left !important;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.forum-post h4{
+    margin: 0;
 }
 
 .motb {

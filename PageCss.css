@@ -270,8 +270,6 @@ body {
   top:10px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
   z-index: 1;
-  
-
 }
   
 #toggle-btn.active {
@@ -291,11 +289,18 @@ body {
   top:0px;
   display:block;
   background:#1a1a1a;
-  width:30px;
+  width:35px;
   height:5px;
   margin:5px 0px;
   cursor:pointer;
   transition:transform 300ms ease 200ms;
+}
+
+@media screen and (max-width: 450px) {
+    #toggle-btn span {
+        width: 45px;
+        
+    }
 }
   
 #toggle-btn.active span:nth-child(1) {

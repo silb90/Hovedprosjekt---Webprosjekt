@@ -50,27 +50,22 @@ body {
 
 #paper-wrapper h1 {
   margin: 0 auto;
-  padding-top: ;
-  padding-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 10%;
   font-weight:bold;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
 #paper-wrapper h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
 }
 
 #paper-wrapper  p {
   font-size: 1.2em;
   line-height: 1.5em;
-	padding: 25px 0;
-	margin: 0;
-}
-
-.center-text {
-	text-align: center;
+    padding-bottom: 25px;
 }
 
 .page-lang {
@@ -78,6 +73,7 @@ body {
   background-color:#8cb3d9;
   z-index: 1;
   position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
 }
@@ -89,6 +85,7 @@ body {
   padding: 3px;
   margin: 0;
   border: 4px solid  #333;
+  border-right:1px solid #fff;
   z-index: 3;
 }
  
@@ -269,18 +266,10 @@ body {
 #toggle-btn {
   position:absolute;
   position: fixed;
-	background-color: orangered;
-	border-radius: 50%;
-	padding: 20px;
-	margin-left: 10px;
-  left: 0;
+  left:20px;
   top:10px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
   z-index: 1;
-}
-
-#toggle-btn:hover {
-	background-color: red;
 }
   
 #toggle-btn.active {
@@ -300,15 +289,18 @@ body {
   top:0px;
   display:block;
   background:#1a1a1a;
-  width:30px;
+  width:35px;
   height:5px;
-  margin:;
+  margin:5px 0px;
   cursor:pointer;
   transition:transform 300ms ease 200ms;
 }
 
-#toggle-btn span:nth-child(even) {
-	margin: 5px 0;
+@media screen and (max-width: 450px) {
+    #toggle-btn span {
+        width: 45px;
+        
+    }
 }
   
 #toggle-btn.active span:nth-child(1) {
@@ -375,32 +367,26 @@ body {
 }
 
 .image-center-sidebyside {
-	text-align: center;
-	margin-top: 50px;
+  margin: 5% auto;
+  text-align: center;
 }
 
 .image-center-sidebyside img {
-  width: 46%;
-  padding: 1%;
+  width: 40%;
+  padding: 10px;
   background-color: #8cb3d9;
   border: 1px solid black;
+  margin: 0 1%;
   min-width: 220px;
-	float: left;
 }
 
-.image-center-sidebyside img:nth-child(2) {
-	float: right;
-	margin-bottom: 50px;
-}
-
-@media screen and (max-width: 700px) {
-	.image-center-sidebyside img {
-		float: none !important;
-		width: 95%;
-	}
-}
-
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 450px) {
+    .image-center-sidebyside img {
+        width: 100%;
+        padding: 0;
+        min-width: 0;
+    }
+    
     .image-right-frame-source, .image-left-frame-source {
         float: none;
         width: 100%;
@@ -514,10 +500,40 @@ body {
 
 
 
+/*///// Start of solution page /////*/
+
+.solution-text {
+    text-align: center;   
+}
+
+#LGBT-text {
+    margin-bottom: 5%;
+}
+
+#bullying-text {
+    margin-bottom: 5%;
+}
+
+#refugee-text {
+    margin-bottom: 5%;  
+}
+
+
+/*///// End of solution page /////*/
+
+
+
+
+
+
 /*///// Features page /////*/
 
 .features-block {
   padding-bottom: 100px;
+}
+
+.features-block p {
+  padding: 20px 0;
 }
 
 .mobile-example-container-left {
@@ -557,25 +573,13 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 950px) {
-	.mobile-example-container-center img {
-		width: 45%;
-	}
-}
-
-@media screen and (max-width: 615px) {
-	.mobile-example-container-center img {
-		width: 80%;
-	}
-}
-
 @media screen and (max-width: 450px) {
     .mobile-example-container-left {
         float: none;
         padding: 0;
         margin: 0 auto;
         display: block;
-        width: 80%;
+        width: 100%;
         min-width: 0;
     }
     
@@ -584,10 +588,14 @@ body {
         padding: 0;
         margin: 0 auto;
         display: block;
-        width: 80%;
+        width: 100%;
         min-width: 0;
     }
     .mobile-example-container-center img {
+<<<<<<< HEAD
+=======
+        width: 100%;
+>>>>>>> 91a613f4cd16703a1792dcb82cd64815120337ae
         min-width: 0;
     }
 

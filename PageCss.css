@@ -50,22 +50,26 @@ body {
 
 #paper-wrapper h1 {
   margin: 0 auto;
-  padding-top: 1%;
-  padding-bottom: 10%;
+  padding-bottom: 3%;
   font-weight:bold;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 
 #paper-wrapper h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 
 #paper-wrapper  p {
   font-size: 1.2em;
   line-height: 1.5em;
-    padding-bottom: 25px;
+	padding: 25px 0;
+	margin: 0;
+}
+
+.center-text {
+	text-align: center;
 }
 
 .page-lang {
@@ -73,7 +77,6 @@ body {
   background-color:#8cb3d9;
   z-index: 1;
   position: absolute;
-  position: fixed;
   top: 0;
   right: 0;
 }
@@ -85,7 +88,6 @@ body {
   padding: 3px;
   margin: 0;
   border: 4px solid  #333;
-  border-right:1px solid #fff;
   z-index: 3;
 }
  
@@ -264,9 +266,13 @@ body {
 
 
 #toggle-btn {
+	background-color: orangered;
+	border-radius: 50%;
+	padding: 20px;
+	margin-left: 10px;
+  left: 0;	
   position:absolute;
   position: fixed;
-  left:20px;
   top:10px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
   z-index: 1;
@@ -275,6 +281,10 @@ body {
 #toggle-btn.active {
   left:15%;
   transform:rotate(360deg);
+}
+
+#toggle-btn:hover {
+	background-color: red;
 }
 
 @media screen and (max-width: 450px) {
@@ -289,11 +299,14 @@ body {
   top:0px;
   display:block;
   background:#1a1a1a;
-  width:35px;
+  width:30px;
   height:5px;
-  margin:5px 0px;
   cursor:pointer;
   transition:transform 300ms ease 200ms;
+}
+
+#toggle-btn span:nth-child(even) {
+	margin: 5px 0;
 }
 
 @media screen and (max-width: 450px) {
@@ -367,20 +380,32 @@ body {
 }
 
 .image-center-sidebyside {
-  margin: 5% auto;
-  text-align: center;
+	text-align: center;
+	margin-top: 50px;
 }
 
 .image-center-sidebyside img {
-  width: 40%;
-  padding: 10px;
+  width: 46%;
+  padding: 1%;
   background-color: #8cb3d9;
   border: 1px solid black;
-  margin: 0 1%;
   min-width: 220px;
+	float: left;
 }
 
-@media screen and (max-width: 450px) {
+.image-center-sidebyside img:nth-child(2) {
+	float: right;
+	margin-bottom: 50px;	
+}
+
+@media screen and (max-width: 700px) {
+	.image-center-sidebyside img {
+		float: none !important;
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 500px) { 
     .image-center-sidebyside img {
         width: 100%;
         padding: 0;
@@ -500,31 +525,6 @@ body {
 
 
 
-/*///// Start of solution page /////*/
-
-.solution-text {
-    text-align: center;   
-}
-
-#LGBT-text {
-    margin-bottom: 5%;
-}
-
-#bullying-text {
-    margin-bottom: 5%;
-}
-
-#refugee-text {
-    margin-bottom: 5%;  
-}
-
-
-/*///// End of solution page /////*/
-
-
-
-
-
 
 /*///// Features page /////*/
 
@@ -532,15 +532,10 @@ body {
   padding-bottom: 100px;
 }
 
-.features-block p {
-  padding: 20px 0;
-}
-
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
   width: 32%;
-	min-width: 220px;
 	max-width: 350px;
 }
 
@@ -548,7 +543,6 @@ body {
   float: right;
   padding: 0 0 10px 10px;
   width: 32%;
-	min-width: 220px;
 	max-width: 350px;
 }
 
@@ -560,17 +554,38 @@ body {
 
 .mobile-example-container-center img {
   width: 32%;
-	min-width: 220px;
 	max-width: 350px;
 }
 
-.mobile-example-container-center img:nth-child(even) {
-  margin-right: 1%;
-  margin-left: 1%;
+.mobile-example-container-center img {
+  margin-right: 0.5%;
+  margin-left: 0.5%;
 }
 
 #quote-center {
   text-align: center;
+}
+
+@media screen and (max-width: 1115px) {
+	.mobile-example-container-center img {
+		width: 45%;
+	}
+	
+	.mobile-example-container-center img:nth-element(odd) {
+		margin-top: 50px;
+		padding-top: 50px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.mobile-example-container-center img {
+		width: 80%;
+	}
+
+	.mobile-example-container-center img:nth-child(even) {
+			margin-right: 0;
+			margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 450px) {
@@ -579,7 +594,7 @@ body {
         padding: 0;
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width: 80%;
         min-width: 0;
     }
     
@@ -588,20 +603,8 @@ body {
         padding: 0;
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width: 80%;
         min-width: 0;
-    }
-    .mobile-example-container-center img {
-<<<<<<< HEAD
-=======
-        width: 100%;
->>>>>>> 91a613f4cd16703a1792dcb82cd64815120337ae
-        min-width: 0;
-    }
-
-    .mobile-example-container-center img:nth-child(even) {
-        margin-right: 0;
-        margin-left: 0;
     }
 }
 

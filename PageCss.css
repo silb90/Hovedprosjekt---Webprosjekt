@@ -389,7 +389,6 @@ body {
   padding: 1%;
   background-color: #8cb3d9;
   border: 1px solid black;
-  min-width: 220px;
 	float: left;
 }
 
@@ -398,20 +397,14 @@ body {
 	margin-bottom: 50px;	
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 	.image-center-sidebyside img {
 		float: none !important;
-		width: 95%;
+		width: 98%;
 	}
 }
 
 @media screen and (max-width: 500px) { 
-    .image-center-sidebyside img {
-        width: 100%;
-        padding: 0;
-        min-width: 0;
-    }
-    
     .image-right-frame-source, .image-left-frame-source {
         float: none;
         width: 100%;

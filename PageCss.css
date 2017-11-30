@@ -557,13 +557,25 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 950px) {
+	.mobile-example-container-center img {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.mobile-example-container-center img {
+		width: 80%;
+	}
+}
+
 @media screen and (max-width: 450px) {
     .mobile-example-container-left {
         float: none;
         padding: 0;
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width: 80%;
         min-width: 0;
     }
     
@@ -572,11 +584,11 @@ body {
         padding: 0;
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width: 80%;
         min-width: 0;
     }
     .mobile-example-container-center img {
-        width: 100%;
+        width: ;
         min-width: 0;
     }
 

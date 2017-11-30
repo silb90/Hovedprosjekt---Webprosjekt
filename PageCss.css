@@ -107,7 +107,7 @@ body {
   position: fixed;
   top:0px;
   left:0px;
-  width:200px;
+  width:15%;
   height:100vh;
   background:#1a1a1a;
   text-align:center;
@@ -192,7 +192,7 @@ body {
 #toggle-btn {
   position:absolute;
   position: fixed;
-  left:30px;
+  left:20px;
   top:10px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
   z-index: 1;

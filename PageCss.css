@@ -191,7 +191,7 @@ body {
 #toggle-btn {
   position:absolute;
   position: fixed;
-  left:30px;
+  left:20px;
   top:10px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
   z-index: 1;

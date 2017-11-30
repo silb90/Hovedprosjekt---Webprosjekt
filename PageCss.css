@@ -128,14 +128,12 @@ body {
 
 #sidebar-logo{
     width: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;  
-    border-bottom: 1px solid red;
+    padding-top: 3%;
 }
 
 #sidebar-logo img{
     background-color: transparent !important;
-    width: 65% !important;
+    width: 35% !important;
     border-radius: 20% !important;
     padding: 10px;
     
@@ -158,7 +156,6 @@ body {
 }
 
 #sidebar a {
-    margin-top: 3%;
     margin-bottom: 1%;
     text-decoration: none;
     font-size: 22px;
@@ -180,11 +177,11 @@ body {
     display: inline-block;
 	text-align: center;
     box-shadow: 0 9px #994d00;
-    
     background-color: rgba(255,140,0,0.8);
     box-shadow: 5px 5px 5px #994d00;
     border: 4px solid #FA6900;
-    border-radius: 50%;
+    border-radius: 25%;
+    margin-top: 5%;
     
 }
 

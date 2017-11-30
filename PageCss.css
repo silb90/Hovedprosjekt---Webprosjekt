@@ -115,6 +115,7 @@ body {
   transform:perspective(1200px) rotateY(90deg);
   transition:all 400ms ease;
   list-style-type: none;
+  z-index: 1;
 }
 
 #sidebar ul {
@@ -193,6 +194,9 @@ body {
   left:30px;
   top:10px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
+  z-index: 1;
+  
+
 }
   
 #toggle-btn.active {

@@ -3,6 +3,48 @@ function toggleSidebar(ref) {
   document.getElementById('sidebar').classList.toggle('active');
 }
 
+// Start of navbar
+
+var marginY = 0;
+var destination = 0;
+var speed = 25;
+var scroller = null;
+
+function PageScroll(elementId){
+    destination = document.getElementById(elementId).offsetTop;
+    
+    scroller = setTimeout(function(){
+        PageScroll(elementId);
+    }, 10);
+    
+    marginY = marginY + speed;
+    
+    if(marginY >= destination){
+        clearTimeout(scroller);
+    }
+    
+    window.scroll(0,marginY);
+}
+
+function toTop(){
+    scroller = setTimeout(function(){
+        toTop();
+    }, 1);
+    
+    marginY = marginY - speed;
+    
+    if(marginY <= 0){
+        clearTimeout(scroller);
+    }
+    
+    window.scroll(0,marginY);
+}
+
+
+// End of navbar
+
+
+
 function appSettings() {
     
     // Topbar colors //

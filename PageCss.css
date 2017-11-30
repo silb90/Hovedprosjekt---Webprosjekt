@@ -332,8 +332,27 @@ body {
 
 /*///// End navigation layout /////*/
 
+.navbar{
+    padding-top: 2%;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.navbar a{
+    background: red;
+    padding: 10px 20px; 
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    color: black; 
+}
 
+#top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
 
 
 

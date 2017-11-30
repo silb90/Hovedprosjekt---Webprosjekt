@@ -109,7 +109,7 @@ body {
   left:0px;
   width:15%;
   height:100vh;
-  background:orangered;
+  background: white;
   text-align:center;
   transform-origin:left;
   transform:perspective(1200px) rotateY(90deg);
@@ -135,6 +135,10 @@ body {
     color: black;
     text-align: center;
     
+    display: block;
+    color: #ff8533;
+    text-decoration: none;
+    
 }
 
 #sidebar a > img{
@@ -154,24 +158,19 @@ body {
 }
 
 
-
-
-#sidebar ul {
-  padding: 0;
-}
-
-#sidebar ul li {
-  color:#fff;
+#sidebar > a > p {
+    margin: 0px;
+  color:#000;
   font-size:20px;
   width:100%;
   height:50px;
   border-bottom:2px solid #ffcc99;
   line-height:50px;
   text-decoration: none;
-    list-style-type: none;
+    list-style-type: none;  
 }
     
-#sidebar li a {
+#sidebar a {
     display: block;
     color: #ff8533;
     text-decoration: none;
@@ -199,11 +198,8 @@ body {
   z-index: 2;
 }
 
-#sidebar-noscript ul {
-  padding: 0;
-}
 
-#sidebar-noscript ul li {
+#sidebar-noscript a {
   color:#fff;
   font-size:20px;
   width:100%;
@@ -214,13 +210,25 @@ body {
     list-style-type: none;
 }
     
-#sidebar-noscript li a {
+#sidebar-noscript a {
     display: block;
     color: #ff8533;
     text-decoration: none;
 }
     
 #sidebar-noscript a:hover {background-color:#ffcc99}
+
+#sidebar-noscript > a > p {
+    margin: 0px;
+  color:#000;
+  font-size:20px;
+  width:100%;
+  height:50px;
+  border-bottom:2px solid #ffcc99;
+  line-height:50px;
+  text-decoration: none;
+    list-style-type: none;  
+}
 
 /*// Sidebar Noscript end //*/
 

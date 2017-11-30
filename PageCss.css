@@ -427,6 +427,18 @@ body {
     background-attachment: fixed;
 }
 
+@media screen and (max-width: 1440px) {
+    .welcome-page-body {
+        background-image: url("images/2thirdsBackgroundWelcomePage.jpg");
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome-page-body {
+        background-image: url("images/MobileBackgroundWelcomePage.jpg");
+    }
+}
+
 .welcome-page-container {
     max-width: 1920px;
     margin: 0 auto;

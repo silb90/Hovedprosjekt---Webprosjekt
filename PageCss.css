@@ -30,7 +30,7 @@ body {
 }
 
 #wrapper{
-    width: 84%;
+    width:90%;
     margin: 0 auto;
     max-width: 1440px;
     padding: 70px 0;
@@ -38,7 +38,7 @@ body {
 
 #paper-wrapper {
     margin-right: 0;
-    margin-left: 8.5%;
+    margin-left: 7.5%;
     background-color: rgba(255,255,255,0.8);
     padding: 5%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);

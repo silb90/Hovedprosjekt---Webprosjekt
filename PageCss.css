@@ -427,13 +427,13 @@ body {
     background-attachment: fixed;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
     .welcome-page-body {
-        background-image: url("images/2thirdsBackgroundWelcomePage.jpg");
+        background-image: url("images/IpadBackgroundWelcomePage.jpg");
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 450px) {
     .welcome-page-body {
         background-image: url("images/MobileBackgroundWelcomePage.jpg");
     }

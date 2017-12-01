@@ -323,14 +323,14 @@ max-width: 200px;
 #toggle-btn {
 	background-color: #47484b;
 	border-radius: 50%;
-	padding: 20px;
-	margin-left: 10px;
-  left: 0;	
-  position:absolute;
-  position: fixed;
-  top:10px;
-  transition:left 200ms linear 0ms,transform 300ms ease 100ms;
-  z-index: 1;
+	padding: 20px;	
+    position:absolute;
+    position: fixed;
+    top:10px;
+    left: 0;
+    margin-left: 10px;
+    transition:left 200ms linear 0ms,transform 300ms ease 100ms;
+    z-index: 1;
 }
   
 #toggle-btn.active {
@@ -338,15 +338,22 @@ max-width: 200px;
   transform:rotate(360deg);
 }
 
+
+
 #toggle-btn:hover {
 	background-color: black;
 	cursor: pointer;
 }
 
+@media screen and (min-width: 1335px) {
+    #toggle-btn.active {
+        left: 200px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     #toggle-btn.active {
-        left: 35%;
-        
+        left: 35%; 
     }
 }
   
@@ -363,13 +370,6 @@ max-width: 200px;
 
 #toggle-btn span:nth-child(even) {
 	margin: 5px 0;
-}
-
-@media screen and (max-width: 450px) {
-    #toggle-btn span {
-        width: 45px;
-        
-    }
 }
   
 #toggle-btn.active span:nth-child(1) {

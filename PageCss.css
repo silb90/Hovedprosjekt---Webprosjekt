@@ -224,7 +224,6 @@ max-width: 200px;
   height:100%;
   background: silver;
   text-align:center;
-  
   list-style-type: none;
   z-index: 2;
     overflow-y: auto;
@@ -399,16 +398,27 @@ max-width: 200px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 35px;
+    
+    
 }
 
 .navbar a{
-    padding: 10px 20px; 
+    padding: 5%;
+    max-width: 300px;
+    width: 50%;
     color: white;
-    font-size: 22px;
-    text-decoration: underline;
+    font-size: 100%;
     color: black; 
     line-height: 20%;
+    background: linear-gradient(rgb(255, 236, 100) 5%, rgb(255, 171, 35) 100%) rgb(255, 236, 100);
+    border: 5px solid rgba(255,255,255,0.8);
+    text-decoration: none;
+    text-shadow: rgb(255, 238, 102) 0px 1px 0px;
+    box-shadow: rgb(255, 246, 175) 0px 1px 0px 0px;
+    display: inline-block;
 }
+
+.navbar a:hover {background: linear-gradient(rgb(255, 171, 35) 5%, rgb(255, 236, 100) 100%) rgb(255, 171, 35) }
 
 #top{
     position: fixed;

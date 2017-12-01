@@ -227,7 +227,7 @@ max-width: 200px;
   
   list-style-type: none;
   z-index: 2;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
 

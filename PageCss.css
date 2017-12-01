@@ -301,6 +301,9 @@ max-width: 200px;
 
 
 
+
+
+/*// Sidebar button activation //*/
 #toggle-btn {
 	background-color: #47484b;
 	border-radius: 50%;
@@ -367,7 +370,12 @@ max-width: 200px;
   transform:rotate(-45deg);
 }
 
-/*///// End navigation layout /////*/
+/*// End sidebar button activation //*/
+
+
+
+
+/*// Features exclusive navigation bar //*/
 
 .navbar{
     margin: 0 auto;
@@ -379,6 +387,7 @@ max-width: 200px;
 
 .navbar a{
     padding: 20px 0;
+    margin: 10px auto;
     max-width: ;
     width: 30%;
     color: white;
@@ -390,7 +399,7 @@ max-width: 200px;
     text-decoration: none;
     text-shadow: rgb(255, 238, 102) 0px 1px 0px;
     box-shadow: rgb(255, 246, 175) 0px 1px 0px 0px;
-    display: inline-block;
+    display: block;
 }
 
 .navbar a:hover {background: linear-gradient(rgb(255, 171, 35) 5%, rgb(255, 236, 100) 100%) rgb(255, 171, 35) }
@@ -414,6 +423,24 @@ max-width: 200px;
 }
 
 #top:hover {background-color: black;}
+
+@media screen and (max-width: 700px) {
+    #top {
+        border-radius: 0;
+        bottom: 0;
+        right: 0;
+        width: 7.5%;
+    }
+}
+
+
+/*// End features exclusive navigation bar //*/
+
+/*///// End navigation layout /////*/
+
+
+
+
 
 
 /*///// General images layout excluding features page /////*/
@@ -721,9 +748,8 @@ max-width: 200px;
   position: relative;
   float: left;
   max-width: 360px;
-  max-height: 640px;
-  min-width: 220px;
-  min-height: 640px;
+  height: 640px;
+  min-width: ;
 }
 
 #mobile-example h6 {

@@ -397,12 +397,10 @@ max-width: 200px;
 .navbar{
     margin: 0 auto;
     text-align: center;
-<<<<<<< HEAD
-     
-=======
+
     padding-top: 15px;
     padding-bottom: 35px;
->>>>>>> ea92f19728d0057c9b998fe87898a54c6aa5c72e
+
 }
 
 .navbar a{

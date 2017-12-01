@@ -15,7 +15,7 @@ function PageScroll(elementId){
     
     scroller = setTimeout(function(){
         PageScroll(elementId);
-    }, 10);
+    }, 1);
     
     marginY = marginY + speed;
     

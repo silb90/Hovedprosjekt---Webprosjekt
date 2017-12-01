@@ -507,7 +507,7 @@ max-width: 200px;
 
 /*///// Welcome page /////*/
 .welcome-page-body {
-    background-image: url("images/BackgroundWelcomePage.jpg");
+    background-image: url("Images/BackgroundWelcomePage.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
     background-attachment: fixed;
@@ -515,13 +515,13 @@ max-width: 200px;
 
 @media screen and (max-width: 1024px) {
     .welcome-page-body {
-        background-image: url("images/IpadBackgroundWelcomePage.jpg");
+        background-image: url("Images/IpadBackgroundWelcomePage.jpg");
     }
 }
 
 @media screen and (max-width: 450px) {
     .welcome-page-body {
-        background-image: url("images/MobileBackgroundWelcomePage.jpg");
+        background-image: url("Images/MobileBackgroundWelcomePage.jpg");
     }
 }
 

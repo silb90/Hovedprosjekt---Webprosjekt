@@ -346,6 +346,7 @@ max-width: 200px;
 
 #toggle-btn:hover {
 	background-color: red;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {

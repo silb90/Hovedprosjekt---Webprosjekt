@@ -401,11 +401,11 @@ max-width: 200px;
 }
 
 .navbar a{
-    padding: 5%;
+    padding: 4%;
     max-width: 300px;
-    width: 50%;
+    width: 85%;
     color: white;
-    font-size: 100%;
+    font-size: 120%;
     color: black; 
     line-height: 20%;
     background: linear-gradient(rgb(255, 236, 100) 5%, rgb(255, 171, 35) 100%) rgb(255, 236, 100);

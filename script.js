@@ -7,7 +7,7 @@ function toggleSidebar(ref) {
 
 var marginY = 0;
 var destination = 0;
-var speed = 25;
+var speed = 10;
 var scroller = null;
 
 function PageScroll(elementId){
@@ -15,7 +15,7 @@ function PageScroll(elementId){
     
     scroller = setTimeout(function(){
         PageScroll(elementId);
-    }, 10);
+    }, 100);
     
     marginY = marginY + speed;
     

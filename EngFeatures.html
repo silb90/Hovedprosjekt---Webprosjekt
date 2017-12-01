@@ -71,6 +71,20 @@
         </a>
         </div>
     </noscript>
+      
+    <div class="navbar">
+        <a onclick="PageScroll('first'); return false" href="#">Creating a Profile</a>
+    
+        <a onclick="PageScroll('second'); return false" href="#">Searching</a>
+    
+        <a onclick="PageScroll('third'); return false" href="#">Chatting</a>
+    
+        <a onclick="PageScroll('fourth'); return false" href="#">Communities</a>
+    
+        <a onclick="PageScroll('fifth'); return false" href="#">App Setting Showcase</a>
+    
+        <a id="top" onclick="toTop(); return false;" href="#">Goto Top</a>
+    </div>
        
     <div class="page-lang">
       <img class="current-lang" alt="English language" src="images/icon/american-flag.png">
@@ -80,8 +94,10 @@
   <div id="wrapper">
     <div id="paper-wrapper">
       <h1>App Features</h1>
-      <h2>Creating a profile</h2>      
-      <div class="features-block">
+    
+        
+    <div id="first"> <h2>Creating a profile</h2>  
+        <div class="features-block">
       
 				<img src="images/app-images/reg-ex1.jpg" class="mobile-example-container-left">
         <p>Creating a new profile is intended to be simple, but will require some time to consider what options and information you wish to add and possibly share.</p>
@@ -97,24 +113,34 @@
         </div>
          <p>Each criteria is intended to grant a good number of options. Our goal is to represent a large number of people. Particularly important, we wish to allow our users to search for people to chat with based on less common criteria than other social medias may offer. This includes topics considered as taboo and less socially accepted. We want to allow our users to find someone to share their thoughts and feelings with, either casually or given a specific challenge they have in life, and perhaps feel acknowledged, accepted, loved, and valued.</p> 
       </div>
+        
+    </div>
+             
+      
        
       <div class="clear"></div>
 			
 			<div class="features-block">
-				<h2>Searching</h2>
-        <p>Once registration is complete, you may start searching for a conversation partner. The search options available to you are dependent on what you've set on your profile, during or after registration through the profile link. Select the options available in each dropdown menu, whereas the selected alternative will specifically be used to find a conversation partner with similar criteria.</p>
+                
+    <div id="second"> <h2>Searching</h2>
+             <p>Once registration is complete, you may start searching for a conversation partner. The search options available to you are dependent on what you've set on your profile, during or after registration through the profile link. Select the options available in each dropdown menu, whereas the selected alternative will specifically be used to find a conversation partner with similar criteria.</p>
 
-        <p>Once finished and you've clicked search, the app will find a number of options for conversation partners you may connect to. Further, the list will let you know what each person has put in the respective categories of criteria, and you may select the user(s) you find fit the best. Every user in this list is anonymous. 
+        <p>Once finished and you've clicked search, the app will find a number of options for conversation partners you may connect to. Further, the list will let you know what each person has put in the respective categories of criteria, and you may select the user(s) you find fit the best. Every user in this list is anonymous.</p>
+				
+				<p>If someone wants to connect with you, you get a notification. This will list what this user has put in the criteria they are searching for. You may select to accept, ignore, or decline. In the settings you may opt out of being available for search.</p>
 				<div class="mobile-example-container-center">
           <img src="images/app-images/search-ex1.jpg">
           <img src="images/app-images/search-ex2.jpg">  
         </div>
-			</div>
+			</div>   
+    </div>
+				
+        
 			
       <div class="features-block">
-
-        <h2>Chatting</h2>
-        <p>The chat function of our app works largely like any other message application. However, based on your search, you will find a user that has selected similar options as you in their profile. Listed first is all the criteria you searched for and what they've put in each respective option. Your conversation partner will receive a similar list of critera depicting you.</p>
+          
+    <div id="third"> <h2>Chatting</h2>
+          <p>The chat function of our app works largely like any other message application. However, based on your search, you will find a user that has selected similar options as you in their profile. Listed first is all the criteria you searched for and what they've put in each respective option. Your conversation partner will receive a similar list of critera depicting you.</p>
         <p>Your profile will remain hidden until you decide to reveal it to the person you are chatting with. At that point, your partner will have the option to accept. If the user does, both will have access to each others profiles.</p>
         <p>All your conversations are saved on your device, until you select to delete them, and can be accessed through the app's menu. You may also select to add your conversation partner to a "friend's list", so that you may easily engage them in conversation again, should you please.</p>
         <p>Every now and then, warning messages will appear, saying such as <em>"Never reveal identifiable or personal information to strangers"</em> and <em>"If meeting someone, do it in public and/or with a friend"</em>. While these are displaying for a reason, you may naturally change how often they appear, or outright turn them off, in the settings.</p>
@@ -125,17 +151,21 @@
           <img src="images/app-images/chat-ex3.jpg">
         </div>
       </div>
+    </div>
+
+        
+        
       
       <div class="clear"></div>
     
 			<div class="features-block">
-				<h2>Communities</h2>
-				
-				<img class="mobile-example-container-right" src="images/app-images/com-front.jpg"><p>Our app gives the user the ability to join existing communities dedicated to specific topics, or create their own. Here, people can create and participate in discussion forums, and find people who are in the same situation. A selection of official communities is available. The official communities are governed more closely, and will serve as a main hub for certain topics, such as social anxiety.</p>     
+                
+        <div id="fourth"> <h2>Communities</h2>
+                		<img class="mobile-example-container-right" src="images/app-images/com-front.jpg"><p>Our app gives the user the ability to join existing communities dedicated to specific topics, or create their own. Here, people can create and participate in discussion forums, and find people who are in the same situation. A selection of official communities is available. The official communities are governed more closely, and will serve as a main hub for certain topics, such as social anxiety.</p>     
         
-        <p>Furthermore, every user may create a new community, of which they can govern themselves, given they follow the guidelines of common decency, respect, and so forth. All communities you are part of, is neatly listed. Every member of the communities are still anonymous. However, users may select a username solely for this part of the app, to allow for a more connected group of people.</p>
+        <p>Furthermore, every user may create a new community, of which they can govern themselves, given they follow the guidelines of common decency, respect, and so forth. All communities you are part of, are available in a list. Every member of the communities are still anonymous. However, users may select a username solely for this part of the app, as it can be important to recognize people in a community.</p>
 
-        <p>Every member of a community may evaluate each member’s posts, generally by giving a simple “thumbs up”, if you valued the post. This rating is always hidden. Once a member has reached a certain number of positive ratings, and otherwise show good code of conduct, they may be offered the opportunity to moderate the community. This helps to ensure good quality across the content.</p>
+        <p>Every member of a community may evaluate each member’s posts, generally by giving a simple “thumbs up”, if you valued the post. This rating is always hidden. Once a member has reached a certain number of positive ratings, and otherwise show good code of conduct, they may be offered the opportunity to moderate the community. This helps to ensure good quality across the content, and ensure that the users follow the guidelines.</p>
 
         <p>All activity in the community is public, and is expected to follow general guidelines. As such, damaging and unwanted behavior can be reported, if no moderator has already noticed it, and will be evaluated. Continuous examples of breaking general rules of conduct, will give a number of warnings, and may end in being banned from the community, and ultimately may ban the users from using the app altogether.</p> 
         
@@ -147,16 +177,18 @@
         
         <p>Our foremost vision, with the ability to join communities, is to give people an arena to voice their issues, their experiences, and their life lessons. By sharing experiences, in plural, we hope people will learn something new about themselves and the world, and perhaps see their situation in a new light.</p>
         <p id="quote-center">Well placed, wise words may come a long way, for any of us. </p>
-
-
+        </div>
+				
 			</div>
       
       
       
       <div class="features-block">
-        <h2>App settings showcase</h2>
+          
+    <div id="fifth"> <h2>App settings showcase</h2>
+        
         <p>Social media generally does not provide all that much of a personalized feel to the app design and look. As such, we've included a number of settings that each user may customize as they see fit. This is perhaps especially important in an app that is meant to suit a wide range of personalities. Science has shown that colors have various effects on us, and being able to select colors based on current personal feelings can be quite valuable.</p>
-        <p style="text-align:center;">Below is a small showcase to demonstrate the ability to select colors in our app<br><span style="text-align:center; color: gray; font-size: 14px;"><em>* Javascript must be enabled</em></span></p>
+        <p style="text-align:center;">Below is a small showcase to demonstrate the ability to select colors in our app<br><span style="text-align:center; color: darkred; font-size: 0.8em;"><em><b>* Javascript must be enabled</b></em></span></p>
         
         
         <!-- Mobile example -->
@@ -1603,6 +1635,9 @@
                   <option value="26px">26px</option>                  
                 </select>
             </div>
+            
+    </div>
+            
         </div>
         
 

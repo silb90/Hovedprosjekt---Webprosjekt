@@ -395,25 +395,27 @@ max-width: 200px;
 /*///// End navigation layout /////*/
 
 .navbar{
-    padding-top: 2%;
-    width: 90%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
 
 .navbar a{
-    background: red;
     padding: 10px 20px; 
     color: white;
-    font-size: 20px;
-    text-decoration: none;
+    font-size: 22px;
+    text-decoration: underline;
     color: black; 
+    line-height: 20%;
 }
 
 #top{
     position: fixed;
     bottom: 0;
     right: 0;
+    background-color: red;
+    font-size: 30px;
 }
 
 

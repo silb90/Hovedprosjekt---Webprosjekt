@@ -396,10 +396,20 @@ max-width: 200px;
 .navbar{
     margin: 0 auto;
     text-align: center;
+<<<<<<< HEAD
+
     padding-top: 15px;
     padding-bottom: 35px;
+
+=======
+    padding-top: 15px;
+    padding-bottom: 35px;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 25e0c4229f7ea4c77469b7d2962fc42a00261d72
+>>>>>>> c855b6202454b2e4537d6c6699fe5ec584e48582
 }
 
 .navbar a{
@@ -422,10 +432,13 @@ max-width: 200px;
 
 #top{
     position: fixed;
-    bottom: 0;
+    bottom: 5px;
     right: 0;
     background-color: red;
     font-size: 30px;
+    text-decoration: none;
+    border-radius: 25%;
+    padding: 10px;
 }
 
 
@@ -514,7 +527,7 @@ max-width: 200px;
 
 /*///// Welcome page /////*/
 .welcome-page-body {
-    background-image: url("images/BackgroundWelcomePage.jpg");
+    background-image: url("Images/BackgroundWelcomePage.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
     background-attachment: fixed;
@@ -522,13 +535,13 @@ max-width: 200px;
 
 @media screen and (max-width: 1024px) {
     .welcome-page-body {
-        background-image: url("images/IpadBackgroundWelcomePage.jpg");
+        background-image: url("Images/IpadBackgroundWelcomePage.jpg");
     }
 }
 
 @media screen and (max-width: 450px) {
     .welcome-page-body {
-        background-image: url("images/MobileBackgroundWelcomePage.jpg");
+        background-image: url("Images/MobileBackgroundWelcomePage.jpg");
     }
 }
 

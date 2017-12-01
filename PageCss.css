@@ -412,10 +412,13 @@ max-width: 200px;
 
 #top{
     position: fixed;
-    bottom: 0;
+    bottom: 5px;
     right: 0;
     background-color: red;
     font-size: 30px;
+    text-decoration: none;
+    border-radius: 25%;
+    padding: 10px;
 }
 
 

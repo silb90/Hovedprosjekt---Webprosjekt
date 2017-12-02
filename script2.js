@@ -1,4 +1,4 @@
-/ Start of navbar
+// Start of navbar
 
 scrollTo = (element) => {
   window.scroll(

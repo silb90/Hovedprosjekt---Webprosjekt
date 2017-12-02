@@ -363,37 +363,19 @@ max-width: 200px;
     border-bottom: 0;
     z-index: 1;
     border: 2px solid black;
+    overflow: hidden;
+    font-size: 5em;
+    margin: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
 }
 
 #top img {
     width: 50px;
 }
 
-#top > p{
-    font-size: 5em;
-    line-height: 0;
-    padding: 0;
-    margin: 0;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;        
-}
-
 #top:hover {background-color: black; cursor: pointer;}
 
 #top:active, #top:focus {outline: none;}
-
-i {
-  border: solid orange;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 0 0 15px 15px;
-  margin-top: ;
-}
-
-
-#up-arrow {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);  
-}
 
 @media screen and (max-width: 750px) {
     #top {
@@ -403,17 +385,9 @@ i {
         padding: 0;
         width: 7.5%;
         border: 0;
-        outline: 2px solid black;
+        outline: 1px solid black;
     }
-    
-    #top > p{
-        font-size: 4em;      
-    }
-    
-    i {
-        padding: 10px;
-    }
-    
+   
     .navbar button{
         width: 100%;
         font-size: 1.5em;
@@ -434,7 +408,7 @@ i {
         height: 45px;
     }    
     
-    #top > p {
+    #top {
         font-size: 2.5em;
     }
 }

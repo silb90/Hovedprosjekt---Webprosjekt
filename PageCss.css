@@ -311,6 +311,8 @@ max-width: 200px;
   transform:rotate(-45deg);
 }
 
+#toggle-btn-noscript {display: none;}
+
 /*// End sidebar button activation //*/
 
 
@@ -380,9 +382,14 @@ max-width: 200px;
         border-radius: 0;
         bottom: 0;
         right: 0;
+        padding: 0;
         width: 7.5%;
         border: 0;
         outline: 2px solid black;
+    }
+    
+    #top > p{
+        font-size: 4em;      
     }
     
     .navbar button{
@@ -399,6 +406,15 @@ max-width: 200px;
     }
 }
 
+@media screen and (max-width: 450px) {
+    #top {
+        height: 45px;
+    }    
+    
+    #top > p {
+        font-size: 2.5em;
+    }
+}
 
 /*// End features exclusive navigation bar //*/
 
@@ -469,7 +485,7 @@ max-width: 200px;
 	margin-bottom: 50px;	
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
 	.image-center-sidebyside img {
 		float: none !important;
 		width: 98%;
@@ -477,14 +493,12 @@ max-width: 200px;
     .image-center-frame-source {
         margin: 0;  
     }
-}
-
-@media screen and (max-width: 500px) { 
     .image-right-frame-source, .image-left-frame-source {
         float: none;
         width: 100%;
-        margin: 0 auto;
-    }
+        margin: 25px auto;
+    }    
+    
 }
 
 /*///// End image layout /////*/
@@ -651,7 +665,7 @@ max-width: 200px;
 	}
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 750px) {
     .features-block {
         padding-bottom: 10%;
     }

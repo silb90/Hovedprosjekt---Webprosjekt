@@ -227,13 +227,13 @@ max-width: 200px;
     list-style-type: none;    
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     #sidebar-noscript > a > p {
-        font-size: 10px;
+        font-size: 10px !important;
     }
     
     #sidebar-noscript a > img{
-        width: 60%;
+        width: 75% !important;
     }
 }
 
@@ -326,12 +326,13 @@ max-width: 200px;
 
 .navbar button{
     padding: 20px 0;
-    width: 50%;
+    width: 48%;
     color: orange !important;
     font-weight: bold;
     font-size: 2em;
     color: black;
     outline: 2px solid black;
+    border: none;
     /*background: linear-gradient(rgb(255, 236, 100) 5%, rgb(255, 171, 35) 100%) rgb(255, 236, 100);
     outline: 5px solid rgba(255,255,255,0.8);
     text-shadow: rgb(255, 238, 102) 0px 1px 0px;
@@ -368,7 +369,7 @@ max-width: 200px;
 
 #top:hover {background-color: black;}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     #top {
         border-radius: 0;
         bottom: 0;
@@ -378,9 +379,17 @@ max-width: 200px;
         outline: 2px solid black;
     }
     
-    .navbar a{
+    .navbar button{
         width: 100%;
         font-size: 1.5em;
+    }
+    
+    #sidebar-noscript > a > p {
+        font-size: 14px;
+    }
+    
+    #sidebar-noscript a > img{
+        width: 50%;
     }
 }
 

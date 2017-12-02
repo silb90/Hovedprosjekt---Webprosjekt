@@ -344,7 +344,7 @@ max-width: 200px;
     display: inline-block; 
 }
 
-.navbar button:nth-of-type(5) {width: 100%;}
+.navbar-lastbutton {width: 100% !important;}
 
 .navbar button:hover {background: black; cursor: pointer;}
 

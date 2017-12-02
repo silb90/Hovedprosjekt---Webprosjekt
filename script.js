@@ -37,24 +37,11 @@ document.getElementById("5").addEventListener('click', () => {
 });
 
 
-var marginY = 0;
-var destination = 0;
-var speed = 10;
-var scroller = null;
+document.getElementById("top").addEventListener('click', () => {
+  window.scroll(0,0);
+});
 
-function toTop(){
-    scroller = setTimeout(function(){
-        toTop();
-    }, 1);
-    
-    marginY = marginY - speed;
-    
-    if(marginY <= 0){
-        clearTimeout(scroller);
-    }
-    
-    window.scroll(0,marginY);
-}
+
 
 
 // End of navbar

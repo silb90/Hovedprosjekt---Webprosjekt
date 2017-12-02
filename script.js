@@ -16,6 +16,9 @@ scrollTo = (element) => {
   console
 }
 
+document.getElementById("1").addEventListener('click', () => {
+  scrollTo(document.getElementById("profile"));
+});
 
 document.getElementById("2").addEventListener('click', () => {
   scrollTo(document.getElementById("searching"));

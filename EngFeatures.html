@@ -84,13 +84,22 @@
       <h1>App Features</h1>
     
         <div class="navbar">
+            <a onclick="PageScroll('second'); return false" href="#first">Searching</a><a onclick="PageScroll('third'); return false" href="#second">Chatting</a><a onclick="PageScroll('fourth'); return false" href="#third">Communities</a><a onclick="PageScroll('fifth'); return false" href="#fourth">Showcase</a>
+        </div>
+        <a id="top" onclick="toTop(); return false;" href="#">&uarr;</a> 
     
-        <a onclick="PageScroll('second'); return false" href="#">Searching</a><a onclick="PageScroll('third'); return false" href="#">Chatting</a><a onclick="PageScroll('fourth'); return false" href="#">Communities</a><a onclick="PageScroll('fifth'); return false" href="#">Showcase</a>
- 
-    </div>
-    <a id="top" onclick="toTop(); return false;" href="#">&uarr;</a> 
     <div class="clear"></div>
-    
+
+    <dl>
+        <dt>Table of contents</dt>
+            <dd>1. <a onclick="PageScroll('first'); return false" href="#first">Create a profile</a></dd>
+            <dd>2. <a onclick="PageScroll('second'); return false" href="#first">Searching</a></dd>
+            <dd>3. <a onclick="PageScroll('third'); return false" href="#second">Chatting</a></dd>
+            <dd>4. <a onclick="PageScroll('fourth'); return false" href="#third">Communities</a></dd>
+            <dd>5. <a onclick="PageScroll('fifth'); return false" href="#fourth">Settings showcase</a></dd>
+            
+    </dl>
+
     <span id="first"> </span>
         
         <h2>Creating a profile</h2>  

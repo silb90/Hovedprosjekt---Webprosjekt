@@ -85,21 +85,95 @@
       <h1>App Features</h1>
     
         <div class="navbar">
-            <noscript><a href="#profile"></noscript>
+            <a href="#"> 
                 <button id="1">Profile</button>
-                <noscript></a></noscript>
-            <noscript><a href="#searching"></noscript>
+                <script>
+                    scrollTo = (element) => {
+                        window.scroll(
+                      {
+                        behavior: 'smooth',
+                        left: 0,
+                        top: element.getBoundingClientRect().top + window.scrollY
+                      }
+                        );
+                    }   
+                    document.getElementById("1").addEventListener('click', () => {
+                        scrollTo(document.getElementById("profile"));
+                    });
+                </script>
+            </a>
+            
+            <a href="#">
                 <button id="2">Searching</button>
-                <noscript></a></noscript>
-            <noscript><a href="#chatting"></noscript>
+                <script>
+                    scrollTo = (element) => {
+                        window.scroll(
+                      {
+                        behavior: 'smooth',
+                        left: 0,
+                        top: element.getBoundingClientRect().top + window.scrollY
+                      }
+                        );
+                    }   
+                    document.getElementById("2").addEventListener('click', () => {
+                        scrollTo(document.getElementById("searching"));
+                    });
+                </script>
+            </a>
+            
+            <a href="#">
                 <button id="3">Chatting</button>
-                <noscript></a></noscript>
-            <noscript><a href="#communities"></noscript>
+                <script>
+                    scrollTo = (element) => {
+                        window.scroll(
+                      {
+                        behavior: 'smooth',
+                        left: 0,
+                        top: element.getBoundingClientRect().top + window.scrollY
+                      }
+                        );
+                    }   
+                    document.getElementById("3").addEventListener('click', () => {
+                        scrollTo(document.getElementById("chatting"));
+                    });
+                </script>
+            </a>
+            
+            <a href="#">
                 <button id="4">Communities</button>
-                <noscript></a></noscript>
-            <noscript><a href="#showcase"></noscript>
-                <button id="5" class="navbar-lastbutton">Showcase</button><noscript></a>
-            </noscript>
+                <script>
+                    scrollTo = (element) => {
+                        window.scroll(
+                      {
+                        behavior: 'smooth',
+                        left: 0,
+                        top: element.getBoundingClientRect().top + window.scrollY
+                      }
+                        );
+                    }   
+                    document.getElementById("4").addEventListener('click', () => {
+                        scrollTo(document.getElementById("communities"));
+                    });
+                </script>
+            </a>
+            
+            <a href="#">
+                <button id="5" class="navbar-lastbutton">Showcase</button>
+                <script>
+                    scrollTo = (element) => {
+                        window.scroll(
+                      {
+                        behavior: 'smooth',
+                        left: 0,
+                        top: element.getBoundingClientRect().top + window.scrollY
+                      }
+                        );
+                    }   
+                    document.getElementById("5").addEventListener('click', () => {
+                        scrollTo(document.getElementById("showcase"));
+                    });
+                </script>
+            </a>
         </div>
         
       

@@ -227,13 +227,14 @@ max-width: 200px;
     list-style-type: none;    
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     #sidebar-noscript > a > p {
         font-size: 10px !important;
+        font-weight: bold;
     }
     
     #sidebar-noscript a > img{
-        width: 75% !important;
+        width: 60% !important;
     }
 }
 
@@ -399,6 +400,7 @@ max-width: 200px;
     
     #sidebar-noscript > a > p {
         font-size: 14px;
+        font-weight: bold;
     }
     
     #sidebar-noscript a > img{

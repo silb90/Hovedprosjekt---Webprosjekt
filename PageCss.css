@@ -493,7 +493,7 @@ max-width: 200px;
 		width: 98%;
 	}
     .image-center-frame-source {
-        margin: 0;  
+        margin: 25px 0;  
     }
     .image-right-frame-source, .image-left-frame-source {
         float: none;

@@ -343,7 +343,7 @@ max-width: 200px;
     display: inline-block; 
 }
 
-.navbar button:hover {background: black;}
+.navbar button:hover {background: black; cursor: pointer;}
 
 /*.navbar a:hover {background: linear-gradient(rgb(255, 171, 35) 5%, rgb(255, 236, 100) 100%) rgb(255, 171, 35) }*/
 

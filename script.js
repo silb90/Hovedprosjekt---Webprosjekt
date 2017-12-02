@@ -77,7 +77,7 @@ function appSettings() {
     document.getElementById("mobile-bottom").style.color = barTextColor;    
     
     var barIconColor = document.getElementById("bar-icon-color").value;
-    var barIconColorChange = document.getElementsByClassName("moble-menu-lines");
+    var barIconColorChange = document.getElementsByClassName("mobile-menu-lines");
     for (var i = 0; i < barIconColorChange.length; i++) {
         barIconColorChange[i].style.backgroundColor = barIconColor;
     }

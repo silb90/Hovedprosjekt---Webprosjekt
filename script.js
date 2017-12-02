@@ -33,7 +33,10 @@ document.getElementById("5").addEventListener('click', () => {
 });
 
 
-
+var marginY = 0;
+var destination = 0;
+var speed = 10;
+var scroller = null;
 
 function toTop(){
     scroller = setTimeout(function(){

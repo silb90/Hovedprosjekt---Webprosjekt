@@ -345,7 +345,7 @@ max-width: 200px;
 }
 .navbar button:hover {background: black; cursor: pointer;}
 
-#navbar-lastbutton {width: 100%;}
+.navbar-lastbutton {width: 100% !important;}
 
 /*.navbar a:hover {background: linear-gradient(rgb(255, 171, 35) 5%, rgb(255, 236, 100) 100%) rgb(255, 171, 35) }*/
 

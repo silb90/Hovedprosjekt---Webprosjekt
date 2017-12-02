@@ -357,17 +357,20 @@ max-width: 200px;
     background: #47484b;
     border-radius: 50%;
     text-decoration: none;
-    font-size: 3.5em;
     color: orange;
-    line-height: 55px;
     width: 70px;
     height: 70px;
     border-bottom: 0;
     z-index: 1;
     border: 2px solid black;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    
 }
+
+#top > p{
+        font-size: 3em;
+        line-height: 0;
+        padding: 0;
+    }
 
 #top:hover {background-color: black;}
 

@@ -42,7 +42,12 @@ document.getElementById("top").addEventListener('click', () => {
 });
 
 
-
+function scrollToTop() {
+    if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+        window.scrollBy(0, -100);
+        requestAnimationFrame(scrollToTop);
+    }
+}
 
 // End of navbar
 

@@ -377,6 +377,20 @@ max-width: 200px;
 
 #top:active, #top:focus {outline: none;}
 
+i {
+  border: solid orange;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 0 0 15px 15px;
+  margin-top: ;
+}
+
+
+#up-arrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);  
+}
+
 @media screen and (max-width: 750px) {
     #top {
         border-radius: 0;
@@ -390,6 +404,10 @@ max-width: 200px;
     
     #top > p{
         font-size: 4em;      
+    }
+    
+    i {
+        padding: 10px;
     }
     
     .navbar button{

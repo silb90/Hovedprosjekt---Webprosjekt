@@ -32,10 +32,6 @@ document.getElementById("5").addEventListener('click', () => {
 });
 
 
-document.getElementById("top").addEventListener('click', () => {
-  window.scroll(0,0);
-});
-
 
 function scrollToTop() {
     if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {

@@ -19,7 +19,10 @@ scrollTo = (element) => {
 document.getElementById("1").addEventListener('click', () => {
   scrollTo(document.getElementById("profile"));
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4aabf6f8f3db83802befc416578eaa73152076b3
 
 document.getElementById("2").addEventListener('click', () => {
   scrollTo(document.getElementById("searching"));

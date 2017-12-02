@@ -84,21 +84,11 @@
       <h1>App Features</h1>
     
         <div class="navbar">
-            <a onclick="PageScroll('second'); return false" href="#first">Searching</a><a onclick="PageScroll('third'); return false" href="#second">Chatting</a><a onclick="PageScroll('fourth'); return false" href="#third">Communities</a><a onclick="PageScroll('fifth'); return false" href="#fourth">Showcase</a>
+            <a onclick="PageScroll('second'); return false" href="#second">Searching</a><a onclick="PageScroll('third'); return false" href="#third">Chatting</a><a onclick="PageScroll('fourth'); return false" href="#fourth">Communities</a><a onclick="PageScroll('fifth'); return false" href="#fifth">Showcase</a>
         </div>
         <a id="top" onclick="toTop(); return false;" href="#">&uarr;</a> 
     
     <div class="clear"></div>
-
-    <dl>
-        <dt>Table of contents</dt>
-            <dd>1. <a onclick="PageScroll('first'); return false" href="#first">Create a profile</a></dd>
-            <dd>2. <a onclick="PageScroll('second'); return false" href="#first">Searching</a></dd>
-            <dd>3. <a onclick="PageScroll('third'); return false" href="#second">Chatting</a></dd>
-            <dd>4. <a onclick="PageScroll('fourth'); return false" href="#third">Communities</a></dd>
-            <dd>5. <a onclick="PageScroll('fifth'); return false" href="#fourth">Settings showcase</a></dd>
-            
-    </dl>
 
     <span id="first"> </span>
         
@@ -120,11 +110,11 @@
          <p>Each criteria is intended to grant a good number of options. Our goal is to represent a large number of people. Particularly important, we wish to allow our users to search for people to chat with based on less common criteria than other social medias may offer. This includes topics considered as taboo and less socially accepted. We want to allow our users to find someone to share their thoughts and feelings with, either casually or given a specific challenge they have in life, and perhaps feel acknowledged, accepted, loved, and valued.</p> 
             
         
-            <span id="second"> </span>
+            
             
       </div> 
       
-       
+       <span id="second"> </span>
       <div class="clear"></div>
 			
 			<div class="features-block">
@@ -166,11 +156,11 @@
           <img alt="Image displays the app menu, which is available from the typical 3 lines in the topbar" src="Images/app-images/chat-ex3.jpg">
         </div>
             
-            <span id="fourth"> </span>
+            
     </div>
 
         
-        
+        <span id="fourth"> </span>
       
       <div class="clear"></div>
     
@@ -196,11 +186,11 @@
         <p id="quote-center">Well placed, wise words may come a long way, for any of us. </p>
         
                 
-        <span id="fifth">  </span>
+        
 				
 			</div>
       
-      
+      <span id="fifth">  </span>
       
       <div class="features-block">
           
@@ -210,7 +200,7 @@
         <h2>App settings showcase</h2>
         
         <p>Social media generally does not provide all that much of a personalized feel to the app design and look. As such, we've included a number of settings that each user may customize as they see fit. This is perhaps especially important in an app that is meant to suit a wide range of personalities. Science has shown that colors have various effects on us, and being able to select colors based on current personal feelings can be quite valuable.</p>
-        <p style="text-align:center;">Below is a small showcase to demonstrate the ability to select colors in our app<br><span style="text-align:center; color: darkred; font-size: 0.8em;"><em><b>* Javascript must be enabled</b></em></span></p>
+        <p style="text-align:center;">Below is a small showcase to demonstrate the ability to select colors in our app.<br>Pick your colors and change the chat font size, from the dropdown menus.<br><span style="text-align:center; color: darkred; font-size: 0.8em;"><em><b>* Javascript must be enabled</b></em></span></p>
         
         
         <!-- Mobile example -->
@@ -253,6 +243,7 @@
         <div id="settings-showcase-container">
             <h2>Top- and bottombar theme settings</h2>
             <div class="settings-showcase-selectors">
+                
                 <p>Background color</p>
 
                 <select id="bar-color" onchange="appSettings()">
@@ -872,6 +863,7 @@
             <div class="clear"></div>
             
             <h2>Chat theme settings</h2>
+
             <div class="settings-showcase-selectors">
                 <p>Senders name color</p>
                 <select id="sender-name-color" onchange="appSettings()">

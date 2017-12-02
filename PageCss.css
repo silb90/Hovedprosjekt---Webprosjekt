@@ -365,6 +365,10 @@ max-width: 200px;
     border: 2px solid black;
 }
 
+#top img {
+    width: 50px;
+}
+
 #top > p{
     font-size: 5em;
     line-height: 0;

@@ -326,7 +326,7 @@ max-width: 200px;
 
 .navbar button{
     padding: 20px 0;
-    width: 48%;
+    width: 50%;
     color: orange !important;
     font-weight: bold;
     font-size: 2em;
@@ -342,6 +342,8 @@ max-width: 200px;
     text-decoration: none;
     display: inline-block; 
 }
+
+.navbar button:nth-of-type(5) {width: 100%;}
 
 .navbar button:hover {background: black; cursor: pointer;}
 

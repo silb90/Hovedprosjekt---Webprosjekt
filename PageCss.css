@@ -327,31 +327,23 @@ max-width: 200px;
 
 .navbar button{
     padding: 20px 0 20px 0;
-    width: 49%;
+    width: 50%;
     color: orange !important;
     font-weight: bold;
     font-size: 2em;
     color: black;
     outline: 5px solid black;
     border: none;
-    /*background: linear-gradient(rgb(255, 236, 100) 5%, rgb(255, 171, 35) 100%) rgb(255, 236, 100);
-    outline: 5px solid rgba(255,255,255,0.8);
-    text-shadow: rgb(255, 238, 102) 0px 1px 0px;
-    box-shadow: rgb(255, 246, 175) 0px 1px 0px 0px;
-    */
     background: #47484b;
     text-decoration: none;
     display: inline-block; 
 }
 
 .navbar-lastbutton {
-    width: 98.5% !important;
-    padding-top: 20px !important;
+    width: 100% !important;
 }
 
 .navbar button:hover {background: black; cursor: pointer;}
-
-/*.navbar a:hover {background: linear-gradient(rgb(255, 171, 35) 5%, rgb(255, 236, 100) 100%) rgb(255, 171, 35) }*/
 
 #top{
     position: fixed;
@@ -367,12 +359,8 @@ max-width: 200px;
     border-bottom: 0;
     z-index: 1;
     border: 2px solid black;
-}
-
-#top > p{
+    overflow: hidden;
     font-size: 5em;
-    line-height: 0;
-    padding: 0;
     margin: 0;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;        
 }
@@ -389,13 +377,10 @@ max-width: 200px;
         padding: 0;
         width: 7.5%;
         border: 0;
-        outline: 2px solid black;
+        outline: 1px solid black;
+        font-size: 4em;
     }
-    
-    #top > p{
-        font-size: 4em;      
-    }
-    
+
     .navbar button{
         width: 100%;
         font-size: 1.5em;
@@ -414,11 +399,8 @@ max-width: 200px;
 @media screen and (max-width: 450px) {
     #top {
         height: 45px;
-    }    
-    
-    #top > p {
         font-size: 2.5em;
-    }
+    }    
 }
 
 /*// End features exclusive navigation bar //*/
@@ -523,7 +505,7 @@ max-width: 200px;
 
 @media screen and (max-width: 1024px) {
     .welcome-page-body {
-        background-image: url("Images/IpadBackgroundWelcomePage.jpg");
+        background-image: url("Images/iPadBackgroundWelcomePage.jpg");
     }
 }
 

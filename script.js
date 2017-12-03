@@ -1,11 +1,18 @@
+// Toggle Button
 function toggleSidebar(ref) {
   ref.classList.toggle('active');
   document.getElementById('sidebar').classList.toggle('active');
 }
 
+// Scroll to top button
+function scrollToTop() {
+    if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+        window.scrollBy(0, -150);
+        requestAnimationFrame(scrollToTop);
+    }
+}
 
-
-
+// Showcase of app settings
 function appSettings() {
     
     // Topbar colors //

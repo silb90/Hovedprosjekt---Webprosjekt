@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="PageCss.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-     <script type="text/javascript" src="script.js"></script>
-      <script type="text/javascript" src="script3.js"></script>
   </head>
   <body>
       
-    <div id="sidebar">
+     <div id="sidebar">
         <a href="EngWelcomePage.html">
             <img src="Images/Icon/home-icon.png" alt="Home icon">
             <p>Home</p>
@@ -39,7 +37,7 @@
     </div>
         
     <noscript><div id="toggle-btn-noscript"></noscript>  
-        <div id="toggle-btn" onclick="toggleSidebar(this)">
+        <div role="button" id="toggle-btn" onclick="toggleSidebar(this)" onkeypress="toggleSidebar(this)">
             <span></span>
             <span></span>
             <span></span>
@@ -133,6 +131,6 @@
   </div>
   </div>
       
-      
+   <script type="text/javascript" src="script.js"></script>   
   </body>
 </html>

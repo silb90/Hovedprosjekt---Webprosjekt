@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="PageCss.css">
-        <script type="text/javascript" src="script.js"></script>
     </head>
 
     <body>
@@ -39,11 +38,14 @@
         </a>
     </div>
         
-    <div id="toggle-btn" onclick="toggleSidebar(this)">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div> 
+    <noscript><div id="toggle-btn-noscript"></noscript>  
+        <div role="button" id="toggle-btn" onclick="toggleSidebar(this)" onkeypress="toggleSidebar(this)">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+    <noscript></div></noscript>
+    
     <noscript>
         <div id="sidebar-noscript">
             <a href="NorWelcomePage.html">
@@ -97,7 +99,7 @@
             
       </div>
     </div>
-    
+    <script type="text/javascript" src="script.js"></script>
  </body>
     
 </html>

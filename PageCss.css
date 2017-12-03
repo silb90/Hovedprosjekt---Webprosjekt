@@ -618,6 +618,10 @@ max-width: 200px;
   padding-bottom: 100px;
 }
 
+.features-block:nth-of-type(9) {
+  padding-bottom: 0;
+}
+
 .mobile-example-container-left {
   float: left;
   padding: 0 10px 10px 0;
@@ -727,7 +731,6 @@ max-width: 200px;
   float: left;
   max-width: 360px;
   height: 640px;
-  min-width: ;
 }
 
 #mobile-example h6 {
@@ -884,6 +887,10 @@ max-width: 200px;
         float: none;
         margin: 0 auto;
         width: 100%;
+    }
+    
+    #mobile-example {
+        margin-bottom: 25px;
     }
     
     #settings-showcase-container {

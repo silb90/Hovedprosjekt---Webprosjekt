@@ -327,12 +327,12 @@ max-width: 200px;
 
 .navbar button{
     padding: 20px 0 20px 0;
-    width: 49.6%;
+    width: 49.7%;
     color: orange !important;
     font-weight: bold;
     font-size: 2em;
     color: black;
-    outline: 2px solid black;
+    outline: 5px solid black;
     border: none;
     /*background: linear-gradient(rgb(255, 236, 100) 5%, rgb(255, 171, 35) 100%) rgb(255, 236, 100);
     outline: 5px solid rgba(255,255,255,0.8);
